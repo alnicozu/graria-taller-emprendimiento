@@ -13,7 +13,8 @@ Todo el contenido es una transcripción completa (sin resumir) de las fotos del 
 | 1.3 Modelo de negocios | [modulo-1/1.3-modelo-de-negocios.md](modulo-1/1.3-modelo-de-negocios.md) | Completa |
 | 2.1 Camino al prototipo | [modulo-2/2.1-camino-al-prototipo.md](modulo-2/2.1-camino-al-prototipo.md) | Completa |
 | 2.2 Desafíos de ingeniería | [modulo-2/2.2-desafios-de-ingenieria.md](modulo-2/2.2-desafios-de-ingenieria.md) | Completa |
-| 2.3 Entrevistas con expertos | — | **Pendiente** (sin registro) |
+| 2.3 Entrevistas con expertos | [modulo-2/2.3-entrevista-con-expertos.md](modulo-2/2.3-entrevista-con-expertos.md) | Completa (1 entrevista, 3 desafíos); fotos de evidencia no transcritas |
+| Visado Capstone (ABET) | [modulo-2/visado-capstone.md](modulo-2/visado-capstone.md) | Revisión 1 hecha (29/10/2026); falta Revisión 2 |
 | 2.4 Prototipo y costeo | [modulo-2/2.4-prototipo-y-costeo.md](modulo-2/2.4-prototipo-y-costeo.md) | Est. 1 del block y Est. 2 desde el Excel |
 | 3.1 Experimento a probar | — | **Pendiente** |
 | 3.2 Pitch final | — | **Pendiente** |

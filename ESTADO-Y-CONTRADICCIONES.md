@@ -7,7 +7,8 @@ Revisión hecha cruzando el block, el Excel del grupo y las consignas del manual
 | Práctica | Falta |
 |---|---|
 | 1.1 Est. 2 | Secciones *Mejoras* y *Aprendizajes* del bosquejo individual y grupal. |
-| 2.3 Entrevistas con expertos | Todo: Est. 1 (desafío, entrevistado, preguntas) y Est. 2 (ficha con evidencias fotográficas y conclusiones, una por desafío). |
+| 2.3 Entrevistas con expertos | Ya está (entrevista del 26/10/2026). Falta transcribir las fotos de evidencia y que el grupo actualice el diseño con los hallazgos. |
+| Visado Capstone | Revisión 1 hecha (29/10/2026). Quedan pendientes los componentes 5 (iteración del diseño) y 8 (calidad de la solución final) y la Revisión 2. |
 | 2.4 Est. 2 | Está cubierta por el Excel; falta la foto/lámina del block si se hizo en papel. |
 | 3.1 Experimento | 2 a 3 hipótesis (“Creemos que… por…”) y tarjeta de experimento. |
 | 3.2 Pitch final | Estructura del pitch, 5 a 7 láminas y plan financiero. |
@@ -31,6 +32,20 @@ El Excel (el trabajo más reciente) resuelve varias a favor del diseño nuevo, p
 | 10 | Piloto | 2.1: 5–6 viviendas, 6–8 semanas. 2.4 (block): 1 hogar, 4 semanas. | Excel: 5 hogares, 4 semanas de operación. | Alinear 2.4 con el Excel. |
 | 11 | Metas técnicas | Críticos: <10 NTU; cartucho 3–6 meses. | Desafíos: <5 NTU; membrana ≥12 meses. | Dejar claro que son metas, no valores actuales. |
 | 12 | Margen | Foco 2 pregunta por el precio correcto. | Excel: precio USD 320 instalado. Sumando las líneas de réplicas del mes 7, los materiales rondan USD 290 por equipo (cálculo aproximado, sin instalación, laboratorio ni soporte). | Revisar margen unitario antes del pitch. |
+
+## 2b. La entrevista (2.3) contradice parte del Excel
+
+El Excel con precios de octubre de 2026 sigue el diseño anterior a la entrevista. Los hallazgos del supervisor técnico (26/10/2026) apuntan a otro producto y otro cliente:
+
+| Tema | Entrevista (hallazgo / conclusión) | Excel y hojas anteriores |
+|---|---|---|
+| Cliente | B2C es muy difícil por el costo de conectar cañerías; enfocarse en **B2B y B2G**. | B2C primero; constructoras desde el mes 25. |
+| Filtros | El sistema de filtros debe ser **más sencillo** para el uso previsto (WC y riego). | Prefiltro + microfiltración + UV, carcasas y válvulas por equipo. |
+| Monitoreo | No hace falta un sistema refinado con **IA**; basta modelar el comportamiento del uso de agua. | Sensores de calidad, ESP32, QR + BLE y estimación con IA/regresión. |
+| Propuesta de valor | Falta cuantificar el gasto de agua y el ahorro del consumidor. | Sin cálculo de ahorro ni de recuperación de la inversión. |
+| Usos del agua | Explorar otros usos (aire acondicionado, refrigeración). | WC y riego. |
+
+Esto además toca el visado: el componente 5 (iteración del diseño) pide un ciclo propuesta → prueba → modificación documentada. La entrevista es una prueba; falta registrar la modificación del diseño que se decida a partir de ella.
 
 ## 3. Observaciones del Excel
 
