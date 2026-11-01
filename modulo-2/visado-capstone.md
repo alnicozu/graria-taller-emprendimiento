@@ -1,6 +1,6 @@
 # Visado y guía de diseño Capstone (ABET)
 
-> Transcripción del documento Word “Visado y Guía de Diseño Capstone v3”: guía para supervisores, rúbrica y la ficha de visado del grupo. Se omiten los nombres propios de la ficha (supervisor, integrantes). Revisión 1 fechada el **29/10/2026**.
+> Transcripción del documento Word “Visado y Guía de Diseño Capstone v3”: guía para supervisores, rúbrica y la ficha de visado del grupo. Original en [originales/](originales/Visado_y_Guia_Diseno_Capstone_v3.docx). Revisión 1 fechada el **29/10/2026**, firmada por el supervisor Juan Carlos Caro.
 
 ## Resultado de la Revisión 1 (resumen)
 
@@ -33,8 +33,8 @@ Capstone · Ingeniería Industrial · Componentes de diseño según ABET.
 |---|---|
 | Proyecto / Título | (en blanco) |
 | Grupo N.° / Semestre-Año | (en blanco) |
-| Integrantes | (omitido) |
-| Supervisor(a) / Profesor(a) revisor(a) | (omitido) |
+| Integrantes | (en blanco) |
+| Supervisor(a) / Profesor(a) revisor(a) | Juan Carlos Caro |
 
 Dos revisiones por semestre. En cada una se marca el nivel de logro por componente. L = Logrado · ED = En desarrollo · NL = No logrado.
 
