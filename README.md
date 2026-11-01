@@ -26,7 +26,8 @@ Además: [ESTADO-Y-CONTRADICCIONES.md](ESTADO-Y-CONTRADICCIONES.md) (qué falta 
 fotos/            fotos originales del block (nombradas por práctica)
 modulo-1/         prácticas 1.1 a 1.3
 modulo-2/         prácticas 2.1, 2.2 y 2.4
+manual/           manual del curso (PDF)
 Mis cuentas de emprendimiento Grupo 4 Graria.xlsx   costeo y plan de crecimiento
 ```
 
-El manual del curso (PDF) no se incluye en el repositorio.
+El manual del curso está en [manual/](manual/Manual%20emprendimiento-dinamico-para-ingenieria%202026.pdf), incluido con autorización del profesor.
