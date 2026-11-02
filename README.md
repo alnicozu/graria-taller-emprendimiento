@@ -20,6 +20,7 @@ La carpeta **[deck-2/](deck-2/)** tiene todo lo necesario para la Evaluación 2.
 | [04 — Ahorro, precio y unidad económica](deck-2/04-ahorro-precio-y-unidad-economica.md) | Tarifa ESSBIO real, cuánto ahorra una vivienda, por qué el modelo anterior no cerraba, precios propuestos y TAM corregido |
 | [05 — Correcciones al deck 1](deck-2/05-correcciones-deck-1.md) | Lámina por lámina: 3 errores, 4 desalineaciones, 14 que quedan igual |
 | [06 — Equipo](deck-2/06-equipo.md) | ⚠️ **Pendiente: falta información del grupo** |
+| [07 — El deck](deck-2/07-el-deck.md) | **Las 14 láminas ya armadas**, con notas del orador y link para descargar en .pptx o PDF |
 
 ### Los tres hallazgos principales
 
