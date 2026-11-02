@@ -39,7 +39,7 @@ La carpeta **[deck-2/](deck-2/)** tiene todo lo necesario para la Evaluación 2.
 | 1.1 Mapa de la solución | [modulo-1/1.1-mapa-de-la-solucion.md](modulo-1/1.1-mapa-de-la-solucion.md) | Falta *Mejoras* y *Aprendizajes* de la Est. 2 |
 | 1.2 Prototipo alfa | [modulo-1/1.2-prototipo-alfa.md](modulo-1/1.2-prototipo-alfa.md) | Completa |
 | 1.3 Modelo de negocios | [modulo-1/1.3-modelo-de-negocios.md](modulo-1/1.3-modelo-de-negocios.md) | Completa |
-| Deck 1 (entregado septiembre 2026) | [modulo-1/deck-1/](modulo-1/deck-1/Presentacion-1.pdf) | Necesita 7 correcciones, ver [deck-2/05](deck-2/05-correcciones-deck-1.md) |
+| Deck 1 (entregado septiembre 2026) | [modulo-1/deck-1/](modulo-1/deck-1/) | ✅ Corregido: 32 textos en 8 láminas. Falta revisarlo renderizado |
 
 ### Módulo 2
 

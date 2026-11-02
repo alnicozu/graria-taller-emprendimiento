@@ -6,6 +6,16 @@ El deck 1 ([Presentación 1.pdf](../modulo-1/deck-1/Presentacion-1.pdf), 21 lám
 
 ---
 
+> ## ✅ YA APLICADAS
+>
+> Las correcciones de abajo **ya están hechas** sobre el .pptx del grupo. El archivo corregido es [DECK-1-corregido.pptx](../modulo-1/deck-1/DECK-1-corregido.pptx) y el original quedó guardado como [DECK-1-original.pptx](../modulo-1/deck-1/DECK-1-original.pptx).
+>
+> Se cambiaron **32 textos en 8 láminas**, editando el XML directamente para no tocar ni el diseño ni las imágenes.
+>
+> **Lo que falta:** nadie ha visto el archivo renderizado. En este equipo no hay LibreOffice ni pdftoppm, así que no pude revisar si algún texto se desborda de su caja. Abran el .pptx y miren las láminas 6, 13 y 19, que son donde el texto nuevo quedó algo más largo que el original.
+
+---
+
 ## 🔴 Lámina 6 — "El problema golpea a toda la cadena"
 
 **Dice:** *"La nueva normativa exige reutilizar aguas grises, pero muchas no saben cómo cumplir ni cómo demostrarlo ante la autoridad."*
