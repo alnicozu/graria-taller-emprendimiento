@@ -21,6 +21,7 @@ La carpeta **[deck-2/](deck-2/)** tiene todo lo necesario para la Evaluación 2.
 | [05 — Correcciones al deck 1](deck-2/05-correcciones-deck-1.md) | Lámina por lámina: 3 errores, 4 desalineaciones, 14 que quedan igual |
 | [06 — Equipo](deck-2/06-equipo.md) | ⚠️ **Pendiente: falta información del grupo** |
 | [07 — El deck](deck-2/07-el-deck.md) | **Las 14 láminas ya armadas**, con notas del orador y link para descargar en .pptx o PDF |
+| [08 — Necesidad de caja](deck-2/08-necesidad-de-caja.md) | Respuesta a la retroalimentación de los ayudantes: caja separada de horas, y el peor mes es el 12 |
 
 ### Los tres hallazgos principales
 
@@ -66,7 +67,7 @@ La carpeta **[deck-2/](deck-2/)** tiene todo lo necesario para la Evaluación 2.
 
 El costeo del prototipo beta (meses 1 a 9, US$9.008) **no cambia** en la v2: siguen construyendo el mismo prototipo. Lo que cambia es el modelo comercial desde el mes 10.
 
-**Resultados de la v2:** flujo mensual positivo sostenido desde el mes 25, 41 edificios (2.050 viviendas) al mes 48, caja acumulada de US$432.024.
+**Resultados de la v2:** necesidad máxima de caja de **US$5.193 en el mes 12** (no los US$9.008 del costo económico), flujo mensual positivo sostenido desde el mes 25, 41 edificios (2.050 viviendas) al mes 48, caja acumulada de US$436.532.
 
 > Los costos de la planta colectiva son una **estimación escalada desde el prototipo**, no una cotización. Hay que cotizar estanque, UV industrial y bombas antes de presentarlos como dato duro.
 

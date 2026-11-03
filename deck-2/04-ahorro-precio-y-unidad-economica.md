@@ -165,7 +165,15 @@ El manual advierte contra *"declaraciones vagas o supuestos sin respaldo, ya que
 
 ---
 
-## 8. Lo que falta cerrar
+## 8. La caja de los primeros 12 meses
+
+El desembolso real de los meses 1 a 9 es de **US$3.158**, no los US$9.008 del costo económico: la diferencia son las horas del equipo, que nadie paga. Y como los meses 10 a 12 siguen gastando sin vender, el punto más bajo de caja es el **mes 12 con US$5.193**.
+
+El detalle, con las fuentes para cubrirlo, está en [08-necesidad-de-caja.md](08-necesidad-de-caja.md).
+
+---
+
+## 9. Lo que falta cerrar
 
 | Pendiente | Quién | Por qué importa |
 |---|---|---|
