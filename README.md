@@ -52,9 +52,12 @@ La carpeta **[deck-2/](deck-2/)** tiene todo lo necesario para la Evaluación 2.
 | 2.4 Prototipo y costeo | [modulo-2/2.4-prototipo-y-costeo.md](modulo-2/2.4-prototipo-y-costeo.md) | Completa. Desactualizada: plantea B2C |
 | Visado Capstone ABET | [modulo-2/visado-capstone.md](modulo-2/visado-capstone.md) | Revisión 1 firmada (29/10/2026). Faltan componentes 5 y 8 |
 
-### Módulo 3 (pendiente)
+### Módulo 3
 
-3.1 Experimento a probar y 3.2 Pitch final. Sin registro todavía.
+| Práctica | Archivo | Estado |
+|---|---|---|
+| 3.1 Definición del experimento | [modulo-3/3.1-experimento.md](modulo-3/3.1-experimento.md) | Lista. Falta asignar responsable a cada experimento |
+| 3.2 Pitch final | — | Pendiente |
 
 ---
 
@@ -79,7 +82,7 @@ El costeo del prototipo beta (meses 1 a 9, US$9.008) **no cambia** en la v2: sig
 deck-2/      preparación de la Evaluación 2  ← empezar acá
 modulo-1/    prácticas 1.1 a 1.3 + deck 1 entregado
 modulo-2/    prácticas 2.1 a 2.4, visado ABET y documentos originales
-modulo-3/    (pendiente)
+modulo-3/    práctica 3.1 y su entregable
 finanzas/    Excel original y plan corregido
 fotos/       fotos del block, nombradas por práctica
 manual/      manual del curso (incluido con autorización del profesor)
