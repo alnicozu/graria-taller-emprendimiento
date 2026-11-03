@@ -62,12 +62,12 @@ La carpeta **[deck-2/](deck-2/)** tiene todo lo necesario para la Evaluación 2.
 
 | Archivo | Qué es |
 |---|---|
-| [finanzas/mis-cuentas-v1-original.xlsx](finanzas/mis-cuentas-v1-original.xlsx) | **Original del grupo, sin tocar.** Resumen, costeo de los 9 meses (78 líneas con proveedor y respaldo), plan de crecimiento, OKRs y Cap Table |
-| [finanzas/plan-financiero-v2-B2B.xlsx](finanzas/plan-financiero-v2-B2B.xlsx) | **Propuesta corregida.** Plan de crecimiento con venta por edificio, suscripción de cumplimiento y costo real de laboratorio |
+| [finanzas/mis-cuentas-VIGENTE-B2B.xlsx](finanzas/mis-cuentas-VIGENTE-B2B.xlsx) | **El que vale.** Las 5 hojas del original más una nueva de necesidad de caja, con el modelo B2B, la caja separada de las horas y las 1.025 fórmulas intactas |
+| [finanzas/mis-cuentas-ANTES-de-la-entrevista.xlsx](finanzas/mis-cuentas-ANTES-de-la-entrevista.xlsx) | **Histórico, no usar.** Es el entregado antes de la entrevista del 26/10: plantea B2C, equipo a US$320 y monitoreo con IA |
 
 El costeo del prototipo beta (meses 1 a 9, US$9.008) **no cambia** en la v2: siguen construyendo el mismo prototipo. Lo que cambia es el modelo comercial desde el mes 10.
 
-**Resultados de la v2:** necesidad máxima de caja de **US$5.193 en el mes 12** (no los US$9.008 del costo económico), flujo mensual positivo sostenido desde el mes 25, 41 edificios (2.050 viviendas) al mes 48, caja acumulada de US$436.532.
+**Resultados de la v2:** necesidad máxima de caja de **US$5.193 en el mes 12** (no los US$9.008 del costo económico), flujo mensual positivo sostenido desde el mes 25, 41 edificios (2.050 viviendas) al mes 48, caja acumulada de US$455.198.
 
 > Los costos de la planta colectiva son una **estimación escalada desde el prototipo**, no una cotización. Hay que cotizar estanque, UV industrial y bombas antes de presentarlos como dato duro.
 

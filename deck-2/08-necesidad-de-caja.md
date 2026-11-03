@@ -5,7 +5,7 @@ Este documento responde la retroalimentación que dieron los ayudantes sobre el 
 > **Lo que dijeron:**
 > *"El costeo está muy bien logrado, cada componente está cotizado y vinculado a su etapa, y la compra de réplicas se condiciona a validar la integración, lo que muestra buen criterio. Lo que más falta es la lectura financiera del flujo. Primero, conviene separar el costo de oportunidad de las horas del gasto en efectivo. Segundo, deben indicar de dónde salen los recursos de los primeros meses: como la CORFO llega recién en el mes 13, la mayor necesidad de caja ocurre en el mes 12, no en el mes 9."*
 
-Las dos observaciones son correctas y ya están aplicadas en [plan-financiero-v2-B2B.xlsx](../finanzas/plan-financiero-v2-B2B.xlsx), hoja **"Necesidad de caja 1-12"**.
+Las dos observaciones son correctas y ya están aplicadas en [mis-cuentas-VIGENTE-B2B.xlsx](../finanzas/mis-cuentas-VIGENTE-B2B.xlsx), hoja **"Necesidad de caja 1-12"**.
 
 ---
 
@@ -46,7 +46,7 @@ La Semilla Inicia CORFO entra recién en el **mes 13**. Entonces la caja sigue b
 | Fin del mes 10 | −US$3.653 |
 | Fin del mes 11 | −US$4.148 |
 | **Fin del mes 12** | **−US$5.193** ← punto más bajo |
-| Mes 13 (entra CORFO) | +US$14.600 aprox. |
+| Mes 13 (entra CORFO y se vende el primer edificio) | +US$27.182 |
 
 **La necesidad máxima de caja es de US$5.193 y ocurre en el mes 12.** Ese es el número que hay que poder defender, no los US$9.008.
 
@@ -69,11 +69,16 @@ La Semilla Inicia CORFO entra recién en el **mes 13**. Entonces la caja sigue b
 
 ## 4. Qué cambió en el Excel
 
-| Hoja | Qué tiene ahora |
+El archivo vigente **es el original del grupo editado**, no uno nuevo: conserva sus 5 hojas y sus fórmulas, y suma una sexta.
+
+| Hoja | Qué cambió |
 |---|---|
-| **Resumen v2 (B2B)** | Fila destacada con la necesidad máxima de caja y su origen, más el costo de oportunidad informado aparte |
-| **Necesidad de caja 1-12** *(nueva)* | Mes a mes del 1 al 12: egresos en efectivo, caja acumulada con el mínimo marcado, horas como memoria, y las cinco fuentes de financiamiento |
-| **Plan crecimiento v2 (B2B)** | Bloques separados: *Egresos en efectivo* y *Memoria — no es caja*. La caja acumulada arranca en −3.158 y marca el mínimo del mes 12 |
+| **Resumen del emprendimiento** | Pasa a B2B y suma la necesidad máxima de caja, su origen y el costo de oportunidad informado aparte |
+| **Mis primeros 9 meses** | **Intacta**, con sus 78 líneas cotizadas. Se le agregó abajo un bloque de lectura financiera: egresos en efectivo, caja acumulada real y horas como memoria |
+| **Necesidad de caja 1-12** *(nueva)* | Mes a mes del 1 al 12, con el mínimo marcado y las cinco fuentes de financiamiento |
+| **Mi plan de crecimiento** | Unidad de venta pasa a edificio. Caja arranca en −3.158, aparece el bloque *Memoria — no es caja* y los imprevistos pasan a ser fórmula |
+| **Mis OKRs** | El piloto pasa de 5 hogares a un edificio; las metas se expresan en edificios |
+| **Cap Table** | **Sin tocar** |
 
 ---
 
