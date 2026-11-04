@@ -85,7 +85,7 @@ El profesor observó que el deck 1 era muy plano, sin ayudas visuales. Estas son
 | 4 | **Mapa de posicionamiento 2x2** | Estandarización para obra nueva contra evidencia de cumplimiento. El cuadrante superior derecho está vacío y ahí se ubica Graria |
 | 6 | **Diagrama de proceso** | Las cinco etapas del tren en línea, con numeración y flechas |
 | 9 | **Curva de costo de cumplimiento** | Cómo cae el costo por vivienda, de US$789 a US$16, según cuántos departamentos comparten una planta |
-| 11 | **Barras de ahorro contra pago** | Las dos escenas lado a lado: el cliente pierde US$19 o gana US$40 |
+| 11 | **Barras de ahorro contra pago** | Las dos escenas lado a lado: al cliente le queda US$0 o le quedan US$60 |
 | 12 | **Curva de caja, meses 9 a 18** | El descenso hasta −US$5.193 en el mes 12 y la recuperación al entrar la CORFO |
 | 13 | **Línea de tiempo de 9 meses** | Las cuatro etapas proporcionales a su duración |
 

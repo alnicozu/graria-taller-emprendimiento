@@ -6,7 +6,7 @@ Todo lo de acá se puede reproducir con una calculadora. Cada cifra dice de dón
 
 ---
 
-## 1. Ahorro de agua: US$76 por vivienda al año
+## 1. Ahorro de agua: US$96 por vivienda al año
 
 ### Los insumos
 
@@ -15,8 +15,9 @@ Todo lo de acá se puede reproducir con una calculadora. Cada cifra dice de dón
 | Consumo por persona | 170 L/día | Deck 1, lámina 5. Fuente original: Corporación Ciudades |
 | Personas por hogar | 4 | **Supuesto del equipo** |
 | Participación del WC en el consumo | 25% | **Supuesto propio**, del resumen del Excel del grupo. Sin fuente externa |
-| Tarifa agua potable | 540,81 $/m³ | Aviso oficial ESSBIO, Grupo 1 Cuenca Bío Bío |
-| Tarifa alcantarillado | 707,21 $/m³ | Idem. Incluye tratamiento de aguas servidas |
+| Tarifa agua potable, no punta | 692,20 $/m³ | Tarifas ESSBIO publicadas el 23-09-2026 |
+| Tarifa alcantarillado con tratamiento | 883,93 $/m³ | Idem |
+| Cargo fijo | 944,00 $/mes | Idem. **No entra en el cálculo**: no cambia con el consumo |
 
 Concepción aparece listada explícitamente en el Grupo 1 Cuenca Bío Bío del aviso, junto con Chiguayante, Penco, San Pedro, Talcahuano, Coronel, Lota y Tomé.
 
@@ -25,17 +26,19 @@ Concepción aparece listada explícitamente en el Grupo 1 Cuenca Bío Bío del a
 ```
 Consumo del hogar   = 170 L × 4 personas × 30 días = 20.400 L = 20,4 m³/mes
 Demanda del WC      = 20,4 × 0,25                  = 5,1 m³/mes
-Tarifa combinada    = 540,81 + 707,21              = 1.248,02 $/m³
-Ahorro mensual      = 5,1 × 1.248,02               = $6.365
-Ahorro anual        = $6.365 × 12                  = $76.379  →  US$76
-Por edificio de 50  = US$76 × 50                   = US$3.819
+Tarifa combinada    = 692,20 + 883,93              = 1.576,13 $/m³
+Ahorro mensual      = 5,1 × 1.576,13               = $8.038
+Ahorro anual        = $8.038 × 12                  = $96.459  →  US$96
+Por edificio de 50  = US$96 × 50                   = US$4.823
 ```
 
 ### El punto que hay que saber defender
 
 **¿Por qué se suma el alcantarillado si el agua igual termina en la alcantarilla?**
 
-Porque en Chile el alcantarillado **se factura sobre el agua potable medida**, no sobre la descarga real. Si el hogar compra menos agua potable, bajan las dos líneas de la boleta. Por eso el ahorro es de 1.248 $/m³ y no de los 541 $/m³ del agua potable sola.
+Porque en Chile el alcantarillado **se factura sobre el agua potable medida**, no sobre la descarga real. Si el hogar compra menos agua potable, bajan las dos líneas de la boleta. Por eso el ahorro es de 1.576 $/m³ y no de los 692 $/m³ del agua potable sola.
+
+**¿Y el sobreconsumo?** En verano la tarifa sobre cierto umbral sube a 1.515,87 $/m³ solo en el agua potable. Un hogar que caiga ahí ahorra todavía más. No está contado, y es margen a favor.
 
 ### Verificación de que alcanza el agua gris
 
@@ -50,22 +53,24 @@ Hay entre **2 y 3 veces más agua gris que demanda de WC**. El cuello de botella
 
 ---
 
-## 2. Por qué el cliente perdía plata en el modelo anterior
+## 2. Por qué el modelo anterior no le dejaba nada al cliente
 
 ```
-Ahorro del cliente       = US$76,4 / 12 = US$6,36 al mes
+Ahorro del cliente       = US$96,5 / 12 = US$8,04 al mes
 Mantención que se cobraba= US$8,00 al mes   (supuesto 2 del plan de crecimiento del grupo)
-Resultado                = 6,36 − 8,00     = −US$1,64 al mes
-Al año                   = −1,64 × 12      = −US$19,6
+Resultado                = 8,04 − 8,00     = +US$0,04 al mes
+La suscripción se llevaba  8,00 ÷ 8,04     = 99,5% del ahorro
 ```
 
-**El cliente perdía unos US$20 al año por tener Graria**, antes de contar los US$320 del equipo. Ese número salió de cruzar el precio que el propio grupo había puesto con la tarifa real, y es lo que confirma con cifras lo que dijo el supervisor técnico sobre el B2C.
+**La suscripción se comía el 100% del agua ahorrada.** El cliente quedaba exactamente en cero todos los meses, y encima había pagado US$320 por un equipo que, sin flujo neto, no se recupera nunca.
+
+> **Esto cambió al actualizar la tarifa.** Con el aviso de 2022 el cálculo daba que el cliente *perdía* US$19 al año. Con la tarifa vigente queda en cero. El argumento se mantiene (la suscripción anulaba todo el beneficio) pero hay que enunciarlo así, no como pérdida. Si alguien del jurado rehace la cuenta, va a llegar a cero, no a −19.
 
 Con la planta colectiva:
 
 ```
 Suscripción = US$150 al mes ÷ 50 viviendas = US$3,00 al mes por vivienda
-Resultado   = 6,36 − 3,00 = +US$3,36 al mes = +US$40,4 al año
+Resultado   = 8,04 − 3,00 = +US$5,04 al mes = +US$60,5 al año
 ```
 
 ---
@@ -206,12 +211,14 @@ El 40% del SAM corresponde a las regiones con estrés hídrico y proyectos suste
 El deck 1 usaba un ticket de US$3.000 por vivienda, de donde salía el TAM de US$220M. Ese ticket no resiste el cálculo de recuperación:
 
 ```
-US$3.000 ÷ US$76 de ahorro al año = 39,5 años de payback
+US$3.000 ÷ US$96 de ahorro al año = 31 años de payback
 ```
 
-Nadie compra algo que se paga en 39 años. Bajamos el TAM a propósito, y eso es más defendible que sostener una cifra inflada.
+Nadie compra algo que se paga en 31 años. Bajamos el TAM a propósito, y eso es más defendible que sostener una cifra inflada.
 
-Para contexto, Hydraloop: US$8.000 a 16.000 ÷ 76 = **105 a 210 años**. Por eso el importado no penetra el mercado residencial chileno.
+Para contexto, Hydraloop: US$8.000 a 16.000 ÷ 96 = **83 a 166 años**. Por eso el importado no penetra el mercado residencial chileno.
+
+Y al revés: el precio propuesto de US$560 se paga en 5,8 años con el solo ahorro de agua. No es el argumento principal, porque quien compra es la inmobiliaria, pero sirve si preguntan.
 
 ---
 
@@ -237,8 +244,8 @@ De ahí en adelante todo sale de las fórmulas del Excel: flujo positivo sosteni
 
 | Cifra | Qué tan firme es |
 |---|---|
-| Tarifa de 1.248 $/m³ | **Firme**, de aviso oficial de ESSBIO. Pero es de 2022: el ahorro real hoy es mayor |
-| Ahorro de US$76 | Firme en aritmética, **apoyado en dos supuestos propios**: 4 personas por hogar y 25% de WC |
+| Tarifa de 1.576 $/m³ | **Firme y vigente**, publicada el 23-09-2026 |
+| Ahorro de US$96 | Firme en aritmética, **apoyado en dos supuestos propios**: 4 personas por hogar y 25% de WC |
 | El 25% del WC | **Supuesto propio sin fuente externa.** Es el más flojo de los insumos |
 | CLP 65.787 del análisis | **Firme**, es una cotización que el propio grupo levantó |
 | Art. 43 del DS 40 | **Firme**, texto oficial del Diario Oficial |
@@ -247,4 +254,6 @@ De ahí en adelante todo sale de las fórmulas del Excel: flujo positivo sosteni
 | US$560 por vivienda | **Estimación sin cotizar.** Hay que decirlo antes de que lo pregunten |
 | 41 edificios al mes 48 | **Objetivo, no pronóstico** |
 
-**La mejora más rápida que pueden hacer:** que alguien fotografíe su boleta de ESSBIO y saque el $/m³ vigente. Cambiar una cifra de 2022 por una de este mes, citando la boleta, sube la calidad de toda la sección financiera por diez minutos de trabajo.
+**La mejora más rápida que queda:** conseguir una fuente externa para el 25% del WC. Es el único insumo del cálculo de ahorro que no tiene respaldo y de él cuelga todo lo demás.
+
+> **Historial de este documento.** La primera versión usaba las tarifas de 2022 (1.248 $/m³). El equipo consiguió las vigentes el 23-09-2026 (1.576 $/m³, un 26% más) y se recalculó todo. Cambió el ahorro (US$76 → US$96), el resultado para el cliente (de perder US$19 a quedar en cero) y el payback del ticket del deck 1 (39 → 31 años).

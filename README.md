@@ -26,9 +26,9 @@ La carpeta **[deck-2/](deck-2/)** tiene todo lo necesario para la Evaluación 2.
 
 ### Los tres hallazgos principales
 
-1. **La suscripción costaba más que el ahorro.** Con tarifa real de ESSBIO Concepción, una vivienda ahorra US$6,4 al mes y se le cobraban US$8 de mantención: perdía US$19 al año. Esto explica con números por qué el supervisor dijo que el B2C no funciona.
+1. **La suscripción se comía todo el ahorro.** Con la tarifa vigente de ESSBIO Concepción (publicada el 23-09-2026), una vivienda ahorra US$8,04 al mes y se le cobraban US$8,00 de mantención: quedaba exactamente en cero, y encima había pagado US$320 por el equipo. Esto explica con números por qué el supervisor dijo que el B2C no funciona.
 2. **El costo de cumplimiento estaba subestimado.** El DS 40 (art. 43) exige análisis bacteriológico **mensual y por sistema** cuando se desinfecta con UV. El plan presupuestaba uno trimestral para toda la operación. Al mes 48 serían US$70.000 al mes contra ingresos de US$30.912.
-3. **La arquitectura colectiva arregla las dos cosas.** Un análisis por edificio en vez de por departamento baja el costo de cumplimiento por vivienda de US$789 a US$16 al año, y el cliente pasa de perder US$19 a ganar US$40.
+3. **La arquitectura colectiva arregla las dos cosas.** Un análisis por edificio en vez de por departamento baja el costo de cumplimiento por vivienda de US$789 a US$16 al año, y al cliente pasa de quedarle US$0 a quedarle US$60 al año.
 
 ---
 

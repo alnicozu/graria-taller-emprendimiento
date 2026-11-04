@@ -34,7 +34,7 @@ Queda igual de fuerte y además resiste la pregunta.
 
 **Dice:** *"Ticket promedio conservador de ~US$3.000 por vivienda-equivalente"*.
 
-**Problema:** con un ahorro real de US$76 al año por vivienda, ese ticket implica un payback de **39 años**. Y es la base del TAM de US$220M de la lámina 11, así que arrastra todo el dimensionamiento.
+**Problema:** con un ahorro real de US$96 al año por vivienda, ese ticket implica un payback de **31 años**. Y es la base del TAM de US$220M de la lámina 11, así que arrastra todo el dimensionamiento.
 
 **Reemplazo:** ticket de **US$560 por vivienda-equivalente** en planta colectiva. TAM US$40M, SAM US$16M, SOM US$0,5-0,8M al año, más la capa recurrente. Cálculo completo en [04-ahorro-precio-y-unidad-economica.md](04-ahorro-precio-y-unidad-economica.md), sección 6.
 

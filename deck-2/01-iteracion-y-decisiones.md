@@ -28,7 +28,7 @@ Esto es lo que hace fuerte la lámina: no es la opinión de una persona.
 |---|---|---|
 | **El supervisor técnico** | El B2C no funciona por el costo de conectar cañerías en vivienda existente | [Entrevista 26/10/2026](../modulo-2/2.3-entrevista-con-expertos.md) |
 | **El DS 40** | Un equipo por departamento con UV obliga a un análisis de laboratorio mensual: CLP 65.787 por depto, US$790 al año. Compartido en un edificio, baja a US$1,3 por depto al mes | [Artículos 43, 44 y 45](03-normativa-y-requisitos.md) |
-| **El cálculo de ahorro** | Una vivienda ahorra US$6,4 al mes y se le cobraba US$8 de mantención: **el cliente perdía US$19 al año** | [Tarifa ESSBIO real](04-ahorro-precio-y-unidad-economica.md) |
+| **El cálculo de ahorro** | Una vivienda ahorra US$8,04 al mes y se le cobraba US$8,00: **la suscripción se comía el 100% del ahorro** | [Tarifa ESSBIO vigente](04-ahorro-precio-y-unidad-economica.md) |
 
 Tres caminos distintos (comercial, regulatorio y económico) que llegan a la misma conclusión: **el producto es una planta colectiva de edificio, vendida a la inmobiliaria en obra nueva.**
 
@@ -44,7 +44,7 @@ Tres caminos distintos (comercial, regulatorio y económico) que llegan a la mis
 | 4 | **Tren de tratamiento** | Prefiltro + membrana + separación electrostática | **Prefiltro + microfiltración con carbón + desinfección** | Entrevista: "tiene que ser más sencillo, debido al uso que tenemos pensado del agua". La electrostática ya había salido del Excel |
 | 5 | **Monitoreo** | IA predictiva, dashboard, nube | **Sensores en línea + registro automático + reporte de cumplimiento** | Entrevista: "no es necesario un sistema de monitoreo tan refinado con IA". Pero el DS 40 art. 44 **sí exige registro y seguimiento**, así que la capa de datos se mantiene con otra justificación |
 | 6 | **Propuesta de valor** | "Agua tratada con datos accionables" | **"Agua reutilizable más el expediente que prueba que cumple"** | Ningún competidor chileno se posiciona sobre el cumplimiento automatizado |
-| 7 | **Precio** | US$320 el equipo + US$8 al mes de mantención, que costaba más que el ahorro | **~US$560 por vivienda** en planta colectiva, más US$150 al mes por edificio (US$3 por vivienda) | El cliente pasa de perder US$19 al año a ganar US$40. Ver [04](04-ahorro-precio-y-unidad-economica.md) |
+| 7 | **Precio** | US$320 el equipo + US$8 al mes de mantención, que se llevaba todo el ahorro | **~US$560 por vivienda** en planta colectiva, más US$150 al mes por edificio (US$3 por vivienda) | El cliente pasa de quedar en cero a ganar US$60 al año. Ver [04](04-ahorro-precio-y-unidad-economica.md) |
 | 8 | **Argumento normativo** | "La normativa exige reutilizar" | **"La normativa no obliga todavía, pero regula con detalle a quien reutiliza, y la OGUC puede hacerlo obligatorio"** | La Ley 21.075 es permisiva. Su art. 14 delega la obligatoriedad en la OGUC |
 
 ---
@@ -68,7 +68,7 @@ Una sola lámina, tres bloques:
 
 **Probamos** → Entrevista con un académico de Ingeniería Industrial UdeC (26/10/2026) sobre tres desafíos. Más revisión del DS 40 y cálculo de ahorro con tarifa ESSBIO real.
 
-**Cambiamos** → Planta colectiva, venta a inmobiliaria en obra nueva, suscripción de cumplimiento a la comunidad. Con los dos números que lo prueban: el costo de cumplimiento por vivienda baja de **US$789 a US$16 al año**, y el cliente pasa de **perder US$19 al año a ganar US$40**.
+**Cambiamos** → Planta colectiva, venta a inmobiliaria en obra nueva, suscripción de cumplimiento a la comunidad. Con los dos números que lo prueban: el costo de cumplimiento por vivienda baja de **US$789 a US$16 al año**, y el cliente pasa de **quedar en cero a ganar US$60 al año**.
 
 Esos dos números son los que hay que dejar en la lámina. Son concretos, vienen de la norma, de la tarifa real y del propio Excel del grupo, y explican la decisión mejor que cualquier párrafo.
 
@@ -84,4 +84,4 @@ Con esto, el **componente 5** pasa de sin marcar a defendible:
 | Testeo o verificación | Entrevista con supervisor técnico (práctica 2.3), análisis del DS 40, cálculo de ahorro |
 | Modificación documentada y justificada | Este documento, sección 3 |
 
-Y el **componente 8** (calidad de la solución final) pide *"resultados esperados cuantificados y comparados contra la línea base"*. La línea base es la cuenta de agua actual; el resultado esperado es el ahorro de US$3.819 al año por edificio. Eso ya está calculado en [04](04-ahorro-precio-y-unidad-economica.md).
+Y el **componente 8** (calidad de la solución final) pide *"resultados esperados cuantificados y comparados contra la línea base"*. La línea base es la cuenta de agua actual; el resultado esperado es el ahorro de US$4.823 al año por edificio. Eso ya está calculado en [04](04-ahorro-precio-y-unidad-economica.md).

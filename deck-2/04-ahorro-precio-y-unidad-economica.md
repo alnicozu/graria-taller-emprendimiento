@@ -12,18 +12,22 @@ Fuente: aviso oficial de tarifas de **ESSBIO S.A.**, regiones de Ñuble y Biobí
 
 | Concepto | Valor |
 |---|---|
-| Cargo fijo por cliente | **$732 / mes** |
-| Agua potable, período no punta (abril a noviembre) | **540,81 $/m³** |
-| Alcantarillado, incluye tratamiento de aguas servidas | **707,21 $/m³** |
-| **Total variable** | **1.248,02 $/m³** |
-| Agua potable en sobreconsumo | 1.183,46 $/m³ |
+| Cargo fijo por cliente | $944,00 / mes |
+| Agua potable, período no punta (abril a noviembre) | **692,20 $/m³** |
+| Agua potable, período punta (diciembre a marzo) | 691,50 $/m³ |
+| Alcantarillado con tratamiento | **883,93 $/m³** |
+| **Total variable, no punta** | **1.576,13 $/m³** |
+| Agua potable en sobreconsumo | 1.515,87 $/m³ |
+
+Tarifas publicadas el **23 de septiembre de 2026**, aportadas por el equipo.
 
 Dos cosas importantes:
 
-- **El alcantarillado se cobra sobre el agua potable medida**, no sobre la descarga real. Al comprar menos agua potable se ahorra en las dos líneas de la boleta. El ahorro es 1.248 $/m³, no los 541 $/m³ del agua potable sola.
-- El aviso verificable es de **marzo de 2022**. Las tarifas subieron desde entonces (la SISS anunció alza gradual hasta 5% entre 2025 y 2030, más reajustes por IPC). **Usar 1.248 $/m³ es conservador.**
+- **El alcantarillado se cobra sobre el agua potable medida**, no sobre la descarga real. Al comprar menos agua potable se ahorra en las dos líneas de la boleta. El ahorro es 1.576 $/m³, no los 692 $/m³ del agua potable sola.
+- **El cargo fijo de $944 queda fuera del cálculo**, porque no cambia con el consumo.
+- Si el hogar entra en **sobreconsumo** (1.515,87 $/m³, típico en verano), el ahorro por m³ es todavía mayor. No está contado.
 
-> **Tarea de 10 minutos:** que alguien fotografíe su boleta de ESSBIO y saque el $/m³ vigente. Citar una boleta de este mes en vez de un aviso de 2022 es el tipo de dato que el manual llama *"línea base con datos verificables"*.
+> **Hecho.** Antes este cálculo usaba un aviso de marzo de 2022 (1.248 $/m³). El equipo consiguió las tarifas vigentes y la cifra subió **26%**, lo que cambió varias conclusiones. Ver sección 3.
 
 ---
 
@@ -44,10 +48,10 @@ El agua gris disponible es casi el triple de lo que consume el WC. **El límite 
 
 | Ahorro | Cálculo | Resultado |
 |---|---|---|
-| Mensual | 5,1 m³ × 1.248 $/m³ | **$6.365 ≈ US$6,4** |
-| Anual | × 12 | **$76.380 ≈ US$76** |
+| Mensual | 5,1 m³ × 1.576,13 $/m³ | **$8.038 ≈ US$8,04** |
+| Anual | × 12 | **$96.459 ≈ US$96** |
 
-**Por edificio de 50 departamentos:** 255 m³/mes, **US$3.819 al año**. Más el riego de áreas comunes, que no está contado.
+**Por edificio de 50 departamentos:** 255 m³/mes, **US$4.823 al año**. Más el riego de áreas comunes, que no está contado.
 
 ---
 
@@ -57,13 +61,15 @@ Aquí está el hallazgo que ordena todo. Con el ahorro ya calculado, se puede co
 
 | Concepto | Valor | Fuente |
 |---|---|---|
-| Ahorro del cliente | **US$6,4 / mes** | Cálculo con tarifa ESSBIO |
-| Plan de mantención que se le cobra | **US$8,0 / mes** | Excel, supuesto 2 del plan de crecimiento |
-| **Resultado para el cliente** | **−US$1,6 / mes** | |
+| Ahorro del cliente | **US$8,04 / mes** | Cálculo con tarifa ESSBIO vigente |
+| Plan de mantención que se le cobra | **US$8,00 / mes** | Excel, supuesto 2 del plan de crecimiento |
+| **Resultado para el cliente** | **US$0,04 / mes** | |
 
-**Un hogar con Graria pierde alrededor de US$19 al año**, antes de considerar los US$320 del equipo, que a ese ritmo no se recuperan nunca.
+**La suscripción se comía el 100% del agua ahorrada.** El cliente quedaba exactamente en cero todos los meses, y encima había pagado US$320 por un equipo que a ese ritmo no se recupera nunca.
 
-La suscripción cuesta más que el agua que ahorra. Eso explica, con números y sin opiniones, por qué el supervisor dijo que el B2C es muy difícil. Es la lámina más contundente que pueden mostrar.
+Eso explica, con números y sin opiniones, por qué el supervisor dijo que el B2C es muy difícil.
+
+> **Corrección importante.** Con la tarifa de 2022 este cálculo daba que el cliente *perdía* US$19 al año. Con la tarifa vigente el resultado es distinto: no pierde, queda en cero. El argumento se mantiene (la suscripción anulaba todo el beneficio) pero hay que enunciarlo así, no como una pérdida.
 
 > **Corrección a un análisis anterior:** el margen del equipo **no** era cero. El Excel estima el costo variable a volumen en **US$195** por equipo (electrónica US$55, filtración y UV US$60, hidráulica e instalación US$65, despacho US$15), lo que da **39% de margen bruto** sobre los US$320. El problema no era el margen del hardware, era la relación entre la suscripción y el ahorro.
 
@@ -139,11 +145,11 @@ Esto resuelve la objeción del payback: **a quien le cobran el equipo no le impo
 
 | | Equipo individual (hoy) | Planta colectiva (propuesto) |
 |---|---|---|
-| Ahorro anual por vivienda | US$76 | US$76 |
+| Ahorro anual por vivienda | US$96 | US$96 |
 | Suscripción anual por vivienda | US$96 | **US$36** |
-| **Neto para el cliente** | **−US$19** | **+US$40** |
+| **Neto para el cliente** | **US$0** | **+US$60** |
 
-Pasa de perder plata a ganarla, y además cumple el DS 40 sin contratar a nadie. Esa tabla de tres filas es la lámina.
+Pasa de quedar en cero a llevarse dos tercios del ahorro, y además cumple el DS 40 sin contratar a nadie. Esa tabla de tres filas es la lámina.
 
 ---
 
@@ -177,7 +183,6 @@ El detalle, con las fuentes para cubrirlo, está en [08-necesidad-de-caja.md](08
 
 | Pendiente | Quién | Por qué importa |
 |---|---|---|
-| Tarifa ESSBIO vigente desde una boleta real | Cualquiera del grupo | Cambia una cifra de 2022 por una actual |
 | Cotización de estanque, UV industrial y bombas a escala de edificio | Equipo técnico | Convierte la estimación en dato duro |
 | Transcribir las tablas del artículo 36 del DS 40 | Quien tenga el PDF | Vienen como imagen, no se pudieron extraer |
 | Precio de Yaku o Ecological | Pedir cotización como cliente | Ancla el precio contra competencia real |
