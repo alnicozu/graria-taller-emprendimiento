@@ -22,12 +22,13 @@ La carpeta **[deck-2/](deck-2/)** tiene todo lo necesario para la Evaluación 2.
 | [06 — Equipo](deck-2/06-equipo.md) | ⚠️ **Pendiente: falta información del grupo** |
 | [07 — El deck](deck-2/07-el-deck.md) | **Las 14 láminas ya armadas**, con logo, 6 gráficos, notas del orador y link para descargar en .pptx o PDF |
 | [08 — Necesidad de caja](deck-2/08-necesidad-de-caja.md) | Respuesta a la retroalimentación de los ayudantes: caja separada de horas, y el peor mes es el 12 |
+| [09 — Cómo se calculó todo](deck-2/09-como-se-calculo-todo.md) | **Cada cifra del deck, paso a paso**, con su fuente y qué tan firme es. Para poder defenderlas |
 
 ### Los tres hallazgos principales
 
 1. **La suscripción costaba más que el ahorro.** Con tarifa real de ESSBIO Concepción, una vivienda ahorra US$6,4 al mes y se le cobraban US$8 de mantención: perdía US$19 al año. Esto explica con números por qué el supervisor dijo que el B2C no funciona.
-2. **El costo de cumplimiento estaba subestimado.** El DS 40 (art. 43) exige análisis bacteriológico **mensual y por sistema** cuando se desinfecta con UV. El plan presupuestaba uno trimestral para toda la operación. Al mes 48 serían US$70.224 al mes contra ingresos de US$30.912.
-3. **La arquitectura colectiva arregla las dos cosas.** Un análisis por edificio en vez de por departamento baja el costo de cumplimiento por vivienda de US$792 a US$16 al año, y el cliente pasa de perder US$19 a ganar US$40.
+2. **El costo de cumplimiento estaba subestimado.** El DS 40 (art. 43) exige análisis bacteriológico **mensual y por sistema** cuando se desinfecta con UV. El plan presupuestaba uno trimestral para toda la operación. Al mes 48 serían US$70.000 al mes contra ingresos de US$30.912.
+3. **La arquitectura colectiva arregla las dos cosas.** Un análisis por edificio en vez de por departamento baja el costo de cumplimiento por vivienda de US$789 a US$16 al año, y el cliente pasa de perder US$19 a ganar US$40.
 
 ---
 

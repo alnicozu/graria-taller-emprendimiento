@@ -81,7 +81,7 @@ La diferencia a escala es brutal:
 |---|---|---|
 | Frecuencia | Trimestral | **Mensual** |
 | Alcance | Uno para toda la operación | **Uno por sistema instalado** |
-| Costo al mes 48 (1.064 clientes activos) | US$22 al mes | **US$70.224 al mes** |
+| Costo al mes 48 (1.064 clientes activos) | US$22 al mes | **US$70.000 al mes** |
 
 Al mes 48 el plan proyecta ingresos totales de **US$30.912 al mes**. El costo de cumplimiento sería **más del doble de todos los ingresos**.
 

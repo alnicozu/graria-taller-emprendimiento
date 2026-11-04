@@ -68,7 +68,7 @@ Una sola lámina, tres bloques:
 
 **Probamos** → Entrevista con un académico de Ingeniería Industrial UdeC (26/10/2026) sobre tres desafíos. Más revisión del DS 40 y cálculo de ahorro con tarifa ESSBIO real.
 
-**Cambiamos** → Planta colectiva, venta a inmobiliaria en obra nueva, suscripción de cumplimiento a la comunidad. Con los dos números que lo prueban: el costo de cumplimiento por vivienda baja de **US$792 a US$16 al año**, y el cliente pasa de **perder US$19 al año a ganar US$40**.
+**Cambiamos** → Planta colectiva, venta a inmobiliaria en obra nueva, suscripción de cumplimiento a la comunidad. Con los dos números que lo prueban: el costo de cumplimiento por vivienda baja de **US$789 a US$16 al año**, y el cliente pasa de **perder US$19 al año a ganar US$40**.
 
 Esos dos números son los que hay que dejar en la lámina. Son concretos, vienen de la norma, de la tarifa real y del propio Excel del grupo, y explican la decisión mejor que cualquier párrafo.
 
