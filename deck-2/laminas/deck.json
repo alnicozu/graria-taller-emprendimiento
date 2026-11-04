@@ -1,0 +1,31 @@
+{
+  "v": 4,
+  "createdOnFiles": { "v": 1, "at": "2026-11-01T00:00:00Z" },
+  "lists": "css",
+  "title": "Graria — Deck Módulo 2",
+  "order": [
+    "cover",
+    "equipo",
+    "competencia",
+    "matriz",
+    "iteracion",
+    "sistema",
+    "desafios",
+    "normativa",
+    "hallazgo",
+    "valor",
+    "economia",
+    "financiero",
+    "pasos",
+    "cierre"
+  ],
+  "sections": {
+    "s1": { "description": "Portada y el equipo fundador que lleva el proyecto", "start": "cover" },
+    "s2": { "description": "El panorama competitivo chileno y el hueco que nadie ocupa", "start": "competencia" },
+    "s3": { "description": "Qué probamos con el supervisor técnico y qué cambiamos del diseño", "start": "iteracion" },
+    "s4": { "description": "La tecnología, sus desafíos técnicos y lo que exige el DS 40", "start": "sistema" },
+    "s5": { "description": "Unidad económica, plan financiero y primeros pasos", "start": "economia" }
+  },
+  "faces": {},
+  "designSystems": []
+}
