@@ -42,7 +42,7 @@ Los dos usos de Graria (descarga de WC y riego de jardines) caen ambos en la cat
 
 ---
 
-## 3. El hallazgo que define la arquitectura del producto
+## 3. El hallazgo que define la tecnología
 
 Este es el punto más importante del análisis. El DS 40 impone **tres regímenes de monitoreo distintos**, y la diferencia entre ellos decide si el negocio es viable.
 
@@ -52,34 +52,32 @@ Sistemas domiciliarios de pequeños volúmenes que generen un caudal de aguas gr
 
 ### Artículo 45, régimen de los sistemas de menor tamaño
 
-Solo exige medir **cloro libre residual** en el efluente, en el punto más cercano a la reutilización, con **frecuencia semanal**.
+Solo exige medir **cloro libre residual** en el efluente, en el punto más cercano a la reutilización, con **frecuencia semanal**, *"manteniendo registro ordenado de las mediciones realizadas"*. Y añade que el control *"podrá realizarse a través de la utilización de equipos de medición portátiles"*.
 
 ### Artículo 43, la trampa de la desinfección UV
 
 Los sistemas que consideren desinfección por **procesos diferentes a la cloración** quedan eximidos del parámetro Cloro Libre Residual. Pero en esos sistemas *"se deberá verificar la calidad bacteriológica (CF) del efluente tratado con una frecuencia mensual"*.
 
-Traducción: **si usan UV en vez de cloro, cambian una tira reactiva semanal por un análisis de laboratorio mensual.**
+Traducción: **si usan UV en vez de cloro, cambian una tira reactiva semanal por un análisis de laboratorio mensual.** A escala de una casa, eso es la diferencia entre US$15 y US$789 al año.
 
-### Artículo 44, régimen de los sistemas colectivos
+### Artículo 44, régimen de los sistemas grandes
 
-Los sistemas distintos a los de menor tamaño deben tener monitoreo de autocontrol según el artículo 36, **más registro y seguimiento** de los resultados y de los parámetros de control del tratamiento.
+Los sistemas distintos a los de menor tamaño deben tener monitoreo de autocontrol según el artículo 36, **más registro y seguimiento** de los resultados y de los parámetros de control del tratamiento. No es nuestro caso: con 0,30 m³/día estamos muy por debajo del umbral.
 
 ---
 
-## 4. Por qué esto mata el equipo por departamento
+## 4. Por qué el reglamento descarta la UV
 
-Usando el precio de análisis del **propio Excel del grupo** (Agrolab, coliformes NMP: **CLP 65.787** por análisis):
+Nuestro equipo trata **0,30 m³/día**, o sea que es sistema de menor tamaño. Ahí la norma se bifurca según la desinfección, y usando el precio de análisis del **propio Excel del grupo** (Agrolab, coliformes NMP: **CLP 65.787**):
 
-| Arquitectura | Caudal | Régimen | Costo de monitoreo |
+| Desinfección | Artículo | Qué exige | Costo al año por casa |
 |---|---|---|---|
-| Equipo bajo lavamanos, 1 depto | ~0,3 m³/día | Menor tamaño + UV, art. 43 | **CLP 65.787 al mes por departamento** (≈ US$66) |
-| Planta colectiva, 50 deptos | ~15 m³/día | Art. 44, colectivo | **CLP 1.316 al mes por departamento** (≈ US$1,3) |
+| **UV** | 43 | Verificación bacteriológica **mensual** de laboratorio, por sistema | **US$789** |
+| **Cloración** | 45 | Medición **semanal** de cloro libre residual, con equipo portátil | **~US$15** en reactivos |
 
-El equipo por departamento con UV tiene un costo de cumplimiento de **US$790 al año**, más que el equipo completo. Es inviable.
+Con UV, cumplir sale más caro que el equipo completo: **inviable**. Por eso el tren pasó a cloración.
 
-La planta colectiva reparte un solo análisis entre 50 departamentos y **cabe sin problema dentro del plan de mantención de US$8 al mes**.
-
-**La norma, por sí sola, empuja el producto hacia el sistema colectivo de edificio.** Coincide con lo que dijo el supervisor técnico (B2B, no B2C) y con lo que planteaba el deck 1 desde septiembre. Tres fuentes independientes apuntando al mismo lugar.
+**La norma, por sí sola, nos dictó la tecnología.** Eso es exactamente lo que pide el componente 6 del visado ABET: evidencia de que la norma fue usada para decidir, no solo nombrada.
 
 ---
 
@@ -114,15 +112,17 @@ No están vendiendo un dashboard bonito: están vendiendo el cumplimiento de una
 
 El DS 40 obliga a elegir entre dos caminos de desinfección, y cada uno arrastra un régimen de monitoreo distinto:
 
-| | Cloración | UV (lo que tienen hoy) |
+| | Cloración (lo elegido) | UV (descartada) |
 |---|---|---|
-| Monitoreo exigido | CLR semanal (art. 45 si es menor tamaño) | **CF de laboratorio mensual** (art. 43) |
-| Costo recurrente | Tira reactiva, centavos | CLP 65.787 por análisis |
-| Equipo | Dosificador y sensor de CLR | Lámpara UV (US$46 en su Excel) |
+| Monitoreo exigido | **CLR semanal con equipo portátil** (art. 45) | CF de laboratorio mensual (art. 43) |
+| Costo recurrente | ~US$15 al año en reactivos | US$789 al año por casa |
+| Equipo | Dosificador y sensor de CLR | Lámpara UV |
 | Subproductos | Cloro residual en el agua de riego | Ninguno |
 | Encaje con sensores | El sensor de CLR es barato y automatizable | La CF no se mide en línea, requiere laboratorio |
 
-**Recomendación:** en la arquitectura colectiva el costo mensual se diluye y UV sigue siendo viable. Pero hay que **decirlo explícitamente en el deck**, porque es una decisión de diseño tomada a partir de una norma.
+**Decisión tomada: cloración.** Es la única viable a escala de una casa, y el art. 45 además permite medirla con equipo portátil, que es justo lo que automatiza nuestro sensor en línea.
+
+**El contra que hay que reconocer:** el cloro residual va al riego. Según la literatura revisada, bajo 1 mg/L no afecta el follaje y sobre 5 mg/L hay daño severo con aspersión. La meta de diseño es mantenerlo entre **0,3 y 1,0 mg/L** y regar por goteo, que el art. 41 permite. **No sirve para huerta.**
 
 Eso es justo lo que pide el componente 6 del visado ABET: *"evidencia de que la norma citada fue efectivamente usada para decidir, no solo nombrada"*. Hoy ese componente está marcado como Logrado; esta sección lo sostiene si se los preguntan.
 

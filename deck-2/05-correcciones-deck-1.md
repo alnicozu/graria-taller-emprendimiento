@@ -34,9 +34,9 @@ Queda igual de fuerte y además resiste la pregunta.
 
 **Dice:** *"Ticket promedio conservador de ~US$3.000 por vivienda-equivalente"*.
 
-**Problema:** con un ahorro real de US$96 al año por vivienda, ese ticket implica un payback de **31 años**. Y es la base del TAM de US$220M de la lámina 11, así que arrastra todo el dimensionamiento.
+**Problema:** con un ahorro real de US$167 al año por casa, ese ticket implica un payback de **18 años**, y con los US$76 que suponía el deck 1 eran 39. Y es la base del TAM de US$220M de la lámina 11, así que arrastra todo el dimensionamiento.
 
-**Reemplazo:** ticket de **US$560 por vivienda-equivalente** en planta colectiva. TAM US$40M, SAM US$16M, SOM US$0,5-0,8M al año, más la capa recurrente. Cálculo completo en [04-ahorro-precio-y-unidad-economica.md](04-ahorro-precio-y-unidad-economica.md), sección 6.
+**Reemplazo:** ticket de **US$480 por casa instalada**. TAM US$40M, SAM US$16M, SOM US$0,5-0,8M al año, más la capa recurrente. Cálculo completo en [04-ahorro-precio-y-unidad-economica.md](04-ahorro-precio-y-unidad-economica.md), sección 6.
 
 Bajar el TAM voluntariamente y explicar por qué da más credibilidad que defender una cifra inflada. El manual advierte contra *"supuestos sin respaldo"*.
 
@@ -70,7 +70,7 @@ En la lámina 17, el bloque "Capa inteligente" sigue sirviendo, pero conviene re
 
 **Reemplazo:** el diferenciador no es la IA, es el **cumplimiento automatizado**. Ningún competidor chileno (Yaku, Ecological, Assa, Ecocontenedores) se posiciona ahí. Ver [02-competencia.md](02-competencia.md).
 
-Mantener sí la idea de defensibilidad por base instalada, pero con otro argumento: cada edificio instalado genera historial de cumplimiento que la comunidad no quiere perder al cambiar de proveedor.
+Mantener sí la idea de defensibilidad por base instalada, pero con otro argumento: cada casa instalada acumula historial de cumplimiento que el dueño no quiere perder al cambiar de proveedor, y la responsabilidad legal del art. 5 es suya.
 
 ---
 
@@ -80,7 +80,7 @@ Mantener sí la idea de defensibilidad por base instalada, pero con otro argumen
 
 **Reemplazo:** el salto a B2C está descartado por ahora. El foco de repetibilidad pasa a ser **replicar el modelo entre inmobiliarias y hacia municipios (B2G)**.
 
-También en esa lámina, el modelo de ingresos: hoy dice "suscripción de monitoreo, plan anual". Conviene precisarlo como **suscripción de cumplimiento, US$150 al mes por edificio**, y aclarar que la paga la comunidad, no la inmobiliaria.
+También en esa lámina, el modelo de ingresos: hoy dice "suscripción de monitoreo, plan anual". Conviene precisarlo como **suscripción de cumplimiento, US$4 al mes por casa**, y aclarar que la paga el hogar, no la constructora.
 
 ---
 

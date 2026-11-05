@@ -46,7 +46,7 @@ La Semilla Inicia CORFO entra recién en el **mes 13**. Entonces la caja sigue b
 | Fin del mes 10 | −US$3.653 |
 | Fin del mes 11 | −US$4.148 |
 | **Fin del mes 12** | **−US$5.193** ← punto más bajo |
-| Mes 13 (entra CORFO y se vende el primer edificio) | +US$27.182 |
+| Mes 13 (entra la CORFO) | +US$14.582 |
 
 **La necesidad máxima de caja es de US$5.193 y ocurre en el mes 12.** Ese es el número que hay que poder defender, no los US$9.008.
 
@@ -76,8 +76,8 @@ El archivo vigente **es el original del grupo editado**, no uno nuevo: conserva 
 | **Resumen del emprendimiento** | Pasa a B2B y suma la necesidad máxima de caja, su origen y el costo de oportunidad informado aparte |
 | **Mis primeros 9 meses** | **Intacta**, con sus 78 líneas cotizadas. Se le agregó abajo un bloque de lectura financiera: egresos en efectivo, caja acumulada real y horas como memoria |
 | **Necesidad de caja 1-12** *(nueva)* | Mes a mes del 1 al 12, con el mínimo marcado y las cinco fuentes de financiamiento |
-| **Mi plan de crecimiento** | Unidad de venta pasa a edificio. Caja arranca en −3.158, aparece el bloque *Memoria — no es caja* y los imprevistos pasan a ser fórmula |
-| **Mis OKRs** | El piloto pasa de 5 hogares a un edificio; las metas se expresan en edificios |
+| **Mi plan de crecimiento** | Unidad de venta pasa al proyecto de 80 casas. Caja arranca en −3.158, aparece el bloque *Memoria — no es caja* y los imprevistos pasan a ser fórmula |
+| **Mis OKRs** | El piloto pasa de 5 departamentos a una casa con jardín; las metas se expresan en proyectos |
 | **Cap Table** | **Sin tocar** |
 
 ---

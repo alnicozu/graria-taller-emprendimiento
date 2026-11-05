@@ -1,12 +1,14 @@
 # Cómo se calculó cada número del deck
 
-Todo lo de acá se puede reproducir con una calculadora. Cada cifra dice de dónde sale: si es dato de fuente externa, supuesto propio del equipo, o estimación sin cotizar.
+Modelo vigente: **equipo por casa, vendido por lote a constructoras en obra nueva, con cloración.**
 
-**Supuesto de conversión usado en todo el documento:** 1 USD = 1.000 CLP. Es el que ya traía el Excel del grupo.
+Todo lo de acá se puede reproducir con una calculadora. Cada cifra dice de dónde sale: dato de fuente externa, supuesto propio del equipo, o estimación sin cotizar.
+
+**Conversión usada en todo el documento:** 1 USD = 1.000 CLP, el supuesto que ya traía el Excel del grupo.
 
 ---
 
-## 1. Ahorro de agua: US$96 por vivienda al año
+## 1. Ahorro de agua: US$167 por casa al año
 
 ### Los insumos
 
@@ -14,246 +16,206 @@ Todo lo de acá se puede reproducir con una calculadora. Cada cifra dice de dón
 |---|---|---|
 | Consumo por persona | 170 L/día | Deck 1, lámina 5. Fuente original: Corporación Ciudades |
 | Personas por hogar | 4 | **Supuesto del equipo** |
-| Participación del WC en el consumo | 25% | **Supuesto propio**, del resumen del Excel del grupo. Sin fuente externa |
-| Tarifa agua potable, no punta | 692,20 $/m³ | Tarifas ESSBIO publicadas el 23-09-2026 |
-| Tarifa alcantarillado con tratamiento | 883,93 $/m³ | Idem |
-| Cargo fijo | 944,00 $/mes | Idem. **No entra en el cálculo**: no cambia con el consumo |
-
-Concepción aparece listada explícitamente en el Grupo 1 Cuenca Bío Bío del aviso, junto con Chiguayante, Penco, San Pedro, Talcahuano, Coronel, Lota y Tomé.
+| Participación del WC | 25% | **Supuesto propio**, del Excel del grupo. Sin fuente externa |
+| Riego de un jardín de 50 m² | 3,75 m³/mes | **Supuesto propio**, promediado al año |
+| Agua potable, no punta | 692,20 $/m³ | Tarifas ESSBIO publicadas el **23-09-2026** |
+| Alcantarillado con tratamiento | 883,93 $/m³ | Idem |
+| Cargo fijo | 944,00 $/mes | Idem. **No entra**: no cambia con el consumo |
 
 ### La cuenta
 
 ```
-Consumo del hogar   = 170 L × 4 personas × 30 días = 20.400 L = 20,4 m³/mes
-Demanda del WC      = 20,4 × 0,25                  = 5,1 m³/mes
-Tarifa combinada    = 692,20 + 883,93              = 1.576,13 $/m³
-Ahorro mensual      = 5,1 × 1.576,13               = $8.038
-Ahorro anual        = $8.038 × 12                  = $96.459  →  US$96
-Por edificio de 50  = US$96 × 50                   = US$4.823
+Consumo del hogar    = 170 L × 4 personas × 30 días  = 20.400 L = 20,4 m³/mes
+Descarga de WC       = 20,4 × 0,25                   = 5,10 m³/mes
+Riego del jardín                                      = 3,75 m³/mes
+Agua reutilizada     = 5,10 + 3,75                   = 8,85 m³/mes
+Tarifa combinada     = 692,20 + 883,93               = 1.576,13 $/m³
+Ahorro mensual       = 8,85 × 1.576,13               = $13.949
+Ahorro anual         = $13.949 × 12                  = $167.393  →  US$167
 ```
 
-### El punto que hay que saber defender
+### Por qué la casa gana al departamento
 
-**¿Por qué se suma el alcantarillado si el agua igual termina en la alcantarilla?**
+Un departamento solo puede reutilizar en el WC: **5,10 m³/mes → US$96 al año**. El resto del agua gris que produce se va al alcantarillado porque no tiene dónde usarla.
 
-Porque en Chile el alcantarillado **se factura sobre el agua potable medida**, no sobre la descarga real. Si el hogar compra menos agua potable, bajan las dos líneas de la boleta. Por eso el ahorro es de 1.576 $/m³ y no de los 692 $/m³ del agua potable sola.
-
-**¿Y el sobreconsumo?** En verano la tarifa sobre cierto umbral sube a 1.515,87 $/m³ solo en el agua potable. Un hogar que caiga ahí ahorra todavía más. No está contado, y es margen a favor.
+La casa riega, así que aprovecha **8,85 m³/mes → US$167 al año**. El jardín aporta **US$71 al año**, que es el 42% del total.
 
 ### Verificación de que alcanza el agua gris
-
-No basta con que el WC demande 5,1 m³: hay que tener esa agua gris disponible.
 
 ```
 Ducha: 80 a 120 L por uso (deck 1, lámina 7)
 4 personas × 1 ducha/día × 80 a 120 L = 320 a 480 L/día = 9,6 a 14,4 m³/mes
 ```
 
-Hay entre **2 y 3 veces más agua gris que demanda de WC**. El cuello de botella es cuánta se puede reutilizar, no cuánta hay. Eso simplifica el diseño: el sistema se dimensiona por el WC y el excedente se va al alcantarillado.
+Se reutilizan 8,85 de los 9,6 a 14,4 disponibles. **Alcanza, con holgura en el rango alto.** El límite es cuánta se puede usar, no cuánta hay.
+
+### Los dos puntos que hay que saber defender
+
+**¿Por qué se suma el alcantarillado si el agua igual termina ahí?** Porque en Chile el alcantarillado **se factura sobre el agua potable medida**, no sobre la descarga real. Si el hogar compra menos agua potable, bajan las dos líneas de la boleta.
+
+**¿Y el sobreconsumo?** En verano la tarifa sobre cierto umbral sube a 1.515,87 $/m³ solo en agua potable. Un hogar que caiga ahí ahorra más. No está contado: es margen a favor.
 
 ---
 
-## 2. Por qué el modelo anterior no le dejaba nada al cliente
+## 2. Payback de 2,9 años
 
 ```
-Ahorro del cliente       = US$96,5 / 12 = US$8,04 al mes
-Mantención que se cobraba= US$8,00 al mes   (supuesto 2 del plan de crecimiento del grupo)
-Resultado                = 8,04 − 8,00     = +US$0,04 al mes
-La suscripción se llevaba  8,00 ÷ 8,04     = 99,5% del ahorro
+Precio del equipo instalado  = US$480
+Ahorro anual                 = US$167
+Payback                      = 480 ÷ 167 = 2,9 años
 ```
 
-**La suscripción se comía el 100% del agua ahorrada.** El cliente quedaba exactamente en cero todos los meses, y encima había pagado US$320 por un equipo que, sin flujo neto, no se recupera nunca.
+Esto responde directamente la observación de que **baño por baño saldría muy caro**. Comparado con lo que el profesor vio en el deck 1:
 
-> **Esto cambió al actualizar la tarifa.** Con el aviso de 2022 el cálculo daba que el cliente *perdía* US$19 al año. Con la tarifa vigente queda en cero. El argumento se mantiene (la suscripción anulaba todo el beneficio) pero hay que enunciarlo así, no como pérdida. Si alguien del jurado rehace la cuenta, va a llegar a cero, no a −19.
+| | Deck 1 | Hoy |
+|---|---|---|
+| Precio por vivienda | US$3.000 | **US$480** |
+| Ahorro anual | US$76 (solo WC, tarifa 2022) | **US$167** (WC + jardín, tarifa vigente) |
+| **Payback** | **31 años** | **2,9 años** |
 
-Con la planta colectiva:
-
-```
-Suscripción = US$150 al mes ÷ 50 viviendas = US$3,00 al mes por vivienda
-Resultado   = 8,04 − 3,00 = +US$5,04 al mes = +US$60,5 al año
-```
+Para contexto: Hydraloop instalado cuesta entre US$8.000 y US$16.000 por vivienda, o sea **48 a 96 años** de payback. Por eso el importado no penetra el mercado residencial chileno.
 
 ---
 
-## 3. Costo de cumplimiento: de US$789 a US$16 por vivienda
+## 3. Cloración en vez de UV: la decisión que dicta el reglamento
 
-### De dónde sale el precio del análisis
-
-**CLP 65.787** por análisis de coliformes NMP, laboratorio Agrolab. Es una línea del propio costeo del grupo, en la hoja *Mis primeros 9 meses* del Excel. No es un número inventado para este argumento.
-
-### Por qué es mensual y por sistema
-
-**DS 40, artículo 43:** los sistemas que desinfectan por un proceso distinto a la cloración (la UV lo es) quedan eximidos de medir cloro libre residual, pero deben verificar la calidad bacteriológica del efluente **con frecuencia mensual**. La obligación recae sobre el sistema instalado, no sobre la empresa.
-
-### La cuenta
+### El umbral
 
 ```
-Análisis            = CLP 65.787 = US$65,79
-
-Un equipo por departamento:
-  por vivienda al año = 65,79 × 12            = US$789
-
-Una planta por edificio de 50 departamentos:
-  por vivienda al mes = 65,79 ÷ 50            = US$1,32
-  por vivienda al año = 1,32 × 12             = US$16
+Agua gris tratada por casa = 8,85 m³/mes ÷ 30 = 0,30 m³/día
+Umbral del DS 40, art. 8 letra s              = 1,5 m³/día
 ```
 
-La razón entre ambos es exactamente 50, que es el número de departamentos que comparten el análisis. No hay magia: es una división.
+Estamos muy por debajo, así que el equipo es un **sistema domiciliario de menor tamaño**. Y ahí el reglamento se bifurca según cómo se desinfecte.
 
-### El número que hizo parar todo
+### Las dos ramas
 
-```
-Clientes con mantención activa al mes 48 (plan original) = 1.064
-Costo de cumplimiento = 1.064 × US$65,79        = US$70.000 al mes
-Ingresos totales del mes 48 (plan original)     = US$30.912 al mes
-Razón                 = 70.000 ÷ 30.912         = 2,3 veces
-```
+| | Con UV | Con cloración |
+|---|---|---|
+| Artículo que aplica | **43** | **45** |
+| Qué exige | Verificación bacteriológica **mensual** de laboratorio, por sistema | Medición **semanal** de cloro libre residual, con equipo portátil |
+| Costo | CLP 65.787 × 12 = **US$789 al año por casa** | Reactivos, **~US$15 al año** |
+| Veredicto | Más caro que el equipo. Inviable | Viable |
 
-Con equipos individuales, cumplir el reglamento costaría **más del doble de todos los ingresos**. Ambas cifras (los 1.064 clientes y los US$30.912) salen de la hoja *Mi plan de crecimiento* del Excel original.
+El precio del análisis (CLP 65.787, laboratorio Agrolab) es una línea del propio costeo del grupo, no un número traído para este argumento.
 
-> **Corrección de redondeo.** En una versión anterior del deck decía US$792 y US$70.224, usando US$66 por análisis. Lo correcto con CLP 65.787 es **US$789** y **US$70.000**. Ya está corregido.
+### Lo que el art. 45 también exige
+
+> *"manteniendo registro ordenado de las mediciones realizadas"*
+
+Nadie quiere medir cloro todos los sábados y anotarlo en un cuaderno. **Eso es lo que el producto automatiza**, y por eso la capa de datos no es un adorno: es la respuesta a una obligación legal que recae sobre el dueño de casa (art. 5).
+
+### El contra, que hay que reconocer
+
+El cloro residual va al riego. Según la literatura revisada: **bajo 1 mg/L no afecta el follaje**, y sobre 5 mg/L hay daño severo si se riega por aspersión. La meta del diseño es mantenerlo entre **0,3 y 1,0 mg/L** y regar por goteo, que el art. 41 permite. **No sirve para huerta.**
 
 ---
 
 ## 4. Necesidad de caja: US$5.193 en el mes 12
 
+*(Sin cambios respecto del modelo anterior: los meses 1 a 12 son los mismos.)*
+
 ### Separar la caja de las horas
 
-El Excel sumaba en una sola línea el desembolso real y las horas del equipo valorizadas. Para sacar la caja real se resta, mes a mes, la fila *Recursos humanos* (US$650 al mes) de la fila *Egresos*:
+El Excel sumaba en una sola línea el desembolso real y las horas valorizadas. Para sacar la caja real se resta, mes a mes, la fila *Recursos humanos* (US$650/mes) de la fila *Egresos*:
 
-| Mes | Egresos totales | − Horas | = Caja real |
-|---|---|---|---|
-| 1 | 789,79 | 650 | 139,79 |
-| 2 | 903,01 | 650 | 253,01 |
-| 3 | 682,79 | 650 | 32,79 |
-| 4 | 713,78 | 650 | 63,78 |
-| 5 | 662,10 | 650 | 12,10 |
-| 6 | 750,95 | 650 | 100,95 |
-| 7 | 2.468,59 | 650 | 1.818,59 |
-| 8 | 943,42 | 650 | 293,42 |
-| 9 | 1.093,75 | 650 | 443,75 |
-| | | **Total** | **3.158,18** |
+| Mes | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | Total |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Egresos | 789,79 | 903,01 | 682,79 | 713,78 | 662,10 | 750,95 | 2.468,59 | 943,42 | 1.093,75 | |
+| − Horas | 650 | 650 | 650 | 650 | 650 | 650 | 650 | 650 | 650 | |
+| **Caja real** | 139,79 | 253,01 | 32,79 | 63,78 | 12,10 | 100,95 | 1.818,59 | 293,42 | 443,75 | **3.158,18** |
 
-**Verificación cruzada:** el propio resumen del Excel dice *"USD 3.158 en materiales y servicios"*. Coincide, así que la separación está bien hecha.
+**Verificación cruzada:** el propio resumen del Excel dice *"USD 3.158 en materiales y servicios"*. Coincide. El mes 7 se dispara porque ahí se compran las 5 réplicas.
 
-El mes 7 se dispara porque ahí se compran las 5 réplicas, después de validar la integración.
+### Por qué el fondo es el mes 12
 
-### Por qué el fondo es el mes 12 y no el 9
-
-Los meses 10, 11 y 12 siguen gastando sin vender nada, y la CORFO llega recién el mes 13:
-
-| Mes | En qué se gasta | Cuenta | Total |
-|---|---|---|---|
-| 10 | Diseño para fabricación | 300 + 50 + 100, más 10% de imprevistos (45) | 495 |
-| 11 | Diseño para fabricación | igual | 495 |
-| 12 | Certificación de calidad en laboratorio | 800 + 50 + 100, más 10% (95) | 1.045 |
-| | | **Subtotal** | **2.035** |
-
-Los imprevistos son el 10% de operaciones más gastos, que es la convención del propio Excel del grupo.
+| Mes | En qué se gasta | Total |
+|---|---|---|
+| 10 | Diseño para fabricación: 300 + 50 + 100, más 10% (45) | 495 |
+| 11 | Igual | 495 |
+| 12 | Certificación de calidad: 800 + 50 + 100, más 10% (95) | 1.045 |
+| | **Subtotal meses 10-12** | **2.035** |
 
 ```
 Caja al fin del mes 9  = −3.158
 Meses 10 a 12          = −2.035
-Necesidad máxima       = −5.193  ← en el mes 12
-```
-
-### Lo que le toca a cada uno
-
-```
-Por persona           = 5.193 ÷ 6 fundadores        = US$866
-Por persona al mes    = 866 ÷ 12 meses              = US$72
+Necesidad máxima       = −5.193  ← mes 12, antes de que entre la CORFO en el 13
+Por persona            = 5.193 ÷ 6 = US$866
+Por persona al mes     = 866 ÷ 12  = US$72
 ```
 
 ---
 
-## 5. Precio de US$560 por vivienda
+## 5. Precio y márgenes
 
-**Esta es la cifra más débil del deck y hay que decirlo si preguntan.**
+> **Advertencia: el costo del equipo es una estimación escalada desde el prototipo, no una cotización.**
 
 ```
-Costo de equipo estimado para 50 deptos   ≈ US$11.000
-Instalación y puesta en marcha            ≈ US$3.000
-Costo directo total                       ≈ US$14.000  →  US$280 por vivienda
-Precio = 2 × costo                        = US$28.000  →  US$560 por vivienda
-Margen bruto                              = 50%
+Costo variable a volumen por casa     ≈ US$175
+Precio de venta instalado              = US$480
+Margen bruto                           = (480 − 175) ÷ 480 = 64%
+
+Por proyecto de 80 casas:
+  Venta   = 80 × 480 = US$38.400
+  Costo   = 80 × 175 = US$14.000
+  Margen  =            US$24.400
 ```
 
-**Es una estimación escalada desde el prototipo, no una cotización.** Está pendiente pedir precio real de estanque, UV industrial y bombas a escala de edificio.
-
-Lo que sí ancla el número es el benchmark: **Hydraloop instalado cuesta entre US$8.000 y US$16.000 por vivienda**. US$560 queda muy por debajo, lo que es coherente con que compartimos una planta entre 50 departamentos en vez de poner un equipo por casa.
+Los US$175 bajan respecto de los US$195 del plan anterior porque **el equipo va en la logia y no necesita chasis a medida** bajo el vanitorio. Ese es el aporte real del espacio de una casa: unos US$20 de los US$195, en la partida de hidráulica e instalación. Las de electrónica, filtración y despacho no cambian con el tamaño del baño.
 
 ### La suscripción
 
 ```
-Costo: análisis mensual                  = US$66
-       plataforma y soporte              = US$25
-       total                             = US$91 al mes por edificio
-Precio                                   = US$150 al mes por edificio
-Margen                                   = US$59 al mes = 39%
-Por vivienda                             = 150 ÷ 50 = US$3 al mes
+Precio   = US$4 al mes por casa = US$48 al año
+Costo    = reactivos, cartuchos y plataforma ≈ US$28 al año
+Margen   = US$20 al año por casa (42%)
+
+Para el hogar: ahorra 167 − paga 48 = le quedan US$119 al año
 ```
 
 ---
 
-## 6. TAM, SAM y SOM
+## 6. Plan de crecimiento
 
-```
-Viviendas nuevas al año en Chile = 72.000      (INE 2024, ya venía del deck 1)
-TAM = 72.000 × US$560                          = US$40M al año
-SAM = 40% del TAM                              = US$16M al año
-SOM = 3 a 5% del SAM                           = US$0,5 a 0,8M al año
-```
+El ritmo es un **objetivo, no un pronóstico**:
 
-El 40% del SAM corresponde a las regiones con estrés hídrico y proyectos sustentables, que es el mismo criterio que usaba el deck 1. Lo único que cambió es el ticket.
-
-### Por qué bajó el TAM
-
-El deck 1 usaba un ticket de US$3.000 por vivienda, de donde salía el TAM de US$220M. Ese ticket no resiste el cálculo de recuperación:
-
-```
-US$3.000 ÷ US$96 de ahorro al año = 31 años de payback
-```
-
-Nadie compra algo que se paga en 31 años. Bajamos el TAM a propósito, y eso es más defendible que sostener una cifra inflada.
-
-Para contexto, Hydraloop: US$8.000 a 16.000 ÷ 96 = **83 a 166 años**. Por eso el importado no penetra el mercado residencial chileno.
-
-Y al revés: el precio propuesto de US$560 se paga en 5,8 años con el solo ahorro de agua. No es el argumento principal, porque quien compra es la inmobiliaria, pero sirve si preguntan.
-
----
-
-## 7. Plan de crecimiento: 41 edificios al mes 48
-
-El ritmo de venta es un **objetivo, no un pronóstico**:
-
-| Meses | Ritmo | Edificios |
+| Meses | Ritmo | Proyectos |
 |---|---|---|
-| 13 a 18 | 1 cada 3 meses | 2 |
-| 19 a 24 | 1 cada 2 meses | 3 |
-| 25 a 36 | 1 por mes | 12 |
-| 37 a 48 | 2 por mes | 24 |
-| | **Total** | **41** |
-
-41 edificios × 50 viviendas = **2.050 viviendas**. Contra un TAM de 72.000 viviendas al año, eso es alrededor del 1,7% del mercado anual en el cuarto año. Es ambicioso pero no absurdo.
-
-De ahí en adelante todo sale de las fórmulas del Excel: flujo positivo sostenido desde el **mes 25** y caja acumulada de **US$455.198** al mes 48.
+| 13 a 18 | El primero en el mes 15 | 1 |
+| 19 a 24 | 2 más | 2 |
+| 25 a 36 | 1 cada dos meses | 6 |
+| 37 a 48 | 1 por mes | 12 |
+| | **Total** | **21 proyectos = 1.680 casas** |
 
 ---
 
-## 8. Lo que hay que reconocer si lo preguntan
+## 7. Qué tan firme es cada cifra
 
-| Cifra | Qué tan firme es |
+| Cifra | Qué tan firme |
 |---|---|
 | Tarifa de 1.576 $/m³ | **Firme y vigente**, publicada el 23-09-2026 |
-| Ahorro de US$96 | Firme en aritmética, **apoyado en dos supuestos propios**: 4 personas por hogar y 25% de WC |
-| El 25% del WC | **Supuesto propio sin fuente externa.** Es el más flojo de los insumos |
-| CLP 65.787 del análisis | **Firme**, es una cotización que el propio grupo levantó |
-| Art. 43 del DS 40 | **Firme**, texto oficial del Diario Oficial |
-| US$3.158 de caja | **Firme**, se verifica contra el propio resumen del Excel |
-| US$5.193 de necesidad | **Firme**, suma directa de las dos anteriores |
-| US$560 por vivienda | **Estimación sin cotizar.** Hay que decirlo antes de que lo pregunten |
-| 41 edificios al mes 48 | **Objetivo, no pronóstico** |
+| CLP 65.787 del análisis | **Firme**, cotización que el propio grupo levantó |
+| Arts. 8, 43 y 45 del DS 40 | **Firme**, texto oficial del Diario Oficial |
+| US$3.158 de caja y US$5.193 de necesidad | **Firmes**, se verifican contra el Excel |
+| Ahorro de US$167 | Firme en aritmética, **apoyado en tres supuestos propios**: 4 personas, 25% de WC y 3,75 m³ de riego |
+| El 25% del WC y los 3,75 m³ de riego | **Supuestos propios sin fuente externa.** Son los insumos más flojos |
+| US$480 de precio y US$175 de costo | **Estimación sin cotizar.** Decirlo antes de que lo pregunten |
+| Cloro bajo 1 mg/L sin daño al follaje | De literatura divulgativa, **conviene respaldarlo mejor** |
+| 21 proyectos al mes 48 | **Objetivo, no pronóstico** |
 
-**La mejora más rápida que queda:** conseguir una fuente externa para el 25% del WC. Es el único insumo del cálculo de ahorro que no tiene respaldo y de él cuelga todo lo demás.
+### Las tres mejoras más rápidas
 
-> **Historial de este documento.** La primera versión usaba las tarifas de 2022 (1.248 $/m³). El equipo consiguió las vigentes el 23-09-2026 (1.576 $/m³, un 26% más) y se recalculó todo. Cambió el ahorro (US$76 → US$96), el resultado para el cliente (de perder US$19 a quedar en cero) y el payback del ticket del deck 1 (39 → 31 años).
+1. **Fuente externa para el 25% del WC y para el consumo de riego.** De ahí cuelga todo el ahorro.
+2. **Cotizar el dosificador y el sensor de cloro en línea.** Es lo único del tren que no está cotizado.
+3. **Conseguir del INE el desglose de casas contra departamentos** en viviendas nuevas, para dimensionar el segmento.
+
+---
+
+## Historial de este documento
+
+| Versión | Qué cambió |
+|---|---|
+| 1 | Modelo B2C, equipo por departamento, tarifa 2022 |
+| 2 | Planta colectiva por edificio, tras la entrevista del 26/10 y el art. 43 |
+| 3 | Tarifa vigente del 23-09-2026: el ahorro sube 26% |
+| **4 (esta)** | **Casas en obra nueva con cloración**, tras la observación del profesor sobre el costo baño por baño. El jardín casi duplica el ahorro y el payback cae de 31 a 2,9 años |

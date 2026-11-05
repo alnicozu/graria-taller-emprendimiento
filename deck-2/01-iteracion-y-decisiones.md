@@ -1,8 +1,6 @@
 # Iteración y decisiones de diseño
 
-Este es el documento que amarra el relato. Sirve para dos cosas a la vez: la lámina de iteración que pide el punto 3 del entregable, y la evidencia del **componente 5 del visado ABET**, que hoy está sin marcar.
-
-El componente 5 exige: *"propuesta → testeo o verificación → modificación documentada y justificada por los resultados de la prueba"*. La entrevista es el testeo. Esto es la modificación.
+Este documento amarra el relato. Sirve para la lámina de iteración del deck y como evidencia del **componente 5 del visado ABET**, que exige *"propuesta → testeo o verificación → modificación documentada y justificada"*.
 
 ---
 
@@ -10,27 +8,26 @@ El componente 5 exige: *"propuesta → testeo o verificación → modificación 
 
 | Momento | Qué pasó | Qué decía el producto |
 |---|---|---|
-| **Septiembre 2026** | Deck 1, Módulo 1 | B2B núcleo (inmobiliarias), municipios, B2C como expansión futura. Prefiltro + membrana + electrostática. Dashboard y datos |
-| **Octubre 2026** | Prácticas 2.1 y 2.4, Excel de costeo | Deriva a **B2C**: equipo bajo el lavamanos, venta a hogares a US$320, estimación con IA |
-| **26 de octubre** | **Entrevista con el supervisor técnico** | "B2C es muy difícil. Es mejor enfocarse en B2B y B2G". "El sistema de filtros tiene que ser más sencillo". "No es necesario un sistema de monitoreo tan refinado con IA" |
-| **29 de octubre** | Visado ABET, Revisión 1 | 6 de 8 componentes logrados. Iteración y solución final quedan pendientes |
-| **Ahora** | Corrección | Vuelve a B2B colectivo, con respaldo normativo y de costos |
-
-**El punto clave del relato:** no fue un giro improvisado. El Módulo 1 ya planteaba B2B. La deriva al B2C ocurrió mientras diseñaban el prototipo, y tres análisis independientes la corrigieron.
+| **Septiembre 2026** | Deck 1, Módulo 1 | Equipo compacto bajo el vanitorio, uno por baño, a US$3.000 por vivienda. Prefiltro, membrana y electrostática. Reúso solo en WC |
+| **Evaluación 1** | Retroalimentación del profesor | **"Baño por baño va a salir muy caro"**. Tenía razón: a ese precio el payback era de 31 años |
+| **Octubre 2026** | Prácticas 2.1 y 2.4, Excel de costeo | Deriva a venta directa al hogar (B2C) a US$320, con estimación por IA |
+| **26 de octubre** | **Entrevista con el supervisor técnico** | "B2C es muy difícil por el costo de instalación. Mejor B2B y B2G". "El sistema de filtros tiene que ser más sencillo". "No hace falta IA" |
+| **29 de octubre** | Visado ABET, Revisión 1 | 6 de 8 componentes logrados. Iteración y solución final pendientes |
+| **Noviembre** | Revisión del DS 40 y de la tarifa vigente | El art. 43 hace inviable la UV en equipos individuales. La tarifa real es 26% mayor que la de 2022 |
+| **Ahora** | Corrección | **Casas en obra nueva, vendidas por lote a constructoras, con cloración y reúso en WC más riego** |
 
 ---
 
-## 2. Las tres fuentes que apuntan al mismo lugar
+## 2. Las cuatro fuentes que ordenaron el diseño
 
-Esto es lo que hace fuerte la lámina: no es la opinión de una persona.
+Lo que hace fuerte la lámina es que no es la opinión de una persona.
 
-| Fuente | Qué dice | Evidencia |
+| Fuente | Qué dijo | Qué cambió |
 |---|---|---|
-| **El supervisor técnico** | El B2C no funciona por el costo de conectar cañerías en vivienda existente | [Entrevista 26/10/2026](../modulo-2/2.3-entrevista-con-expertos.md) |
-| **El DS 40** | Un equipo por departamento con UV obliga a un análisis de laboratorio mensual: CLP 65.787 por depto, US$790 al año. Compartido en un edificio, baja a US$1,3 por depto al mes | [Artículos 43, 44 y 45](03-normativa-y-requisitos.md) |
-| **El cálculo de ahorro** | Una vivienda ahorra US$8,04 al mes y se le cobraba US$8,00: **la suscripción se comía el 100% del ahorro** | [Tarifa ESSBIO vigente](04-ahorro-precio-y-unidad-economica.md) |
-
-Tres caminos distintos (comercial, regulatorio y económico) que llegan a la misma conclusión: **el producto es una planta colectiva de edificio, vendida a la inmobiliaria en obra nueva.**
+| **El profesor** (Evaluación 1) | Baño por baño sale muy caro | Obligó a bajar el costo de verdad, no a maquillarlo |
+| **El supervisor técnico** (26/10) | B2C no funciona; B2B y B2G sí | El cliente es la constructora, no el hogar |
+| **El DS 40** (arts. 8, 43 y 45) | Con UV, laboratorio mensual por sistema: US$789 al año por casa | Cloración en vez de UV |
+| **La tarifa ESSBIO** (23-09-2026) | 1.576 $/m³ sumando agua y alcantarillado | El ahorro real es mayor de lo que creíamos |
 
 ---
 
@@ -38,50 +35,44 @@ Tres caminos distintos (comercial, regulatorio y económico) que llegan a la mis
 
 | # | Decisión | Antes | Ahora | Por qué |
 |---|---|---|---|---|
-| 1 | **Arquitectura** | Equipo compacto bajo el lavamanos, uno por departamento | **Planta colectiva por edificio** | El costo de cumplimiento del DS 40 se divide entre todos los departamentos en vez de repetirse |
-| 2 | **Cliente primario** | Hogares (B2C) | **Inmobiliarias y constructoras en obra nueva** (B2B), municipios (B2G) | Entrevista: el costo de instalación mata el B2C. En obra nueva la doble tubería entra en planos |
-| 3 | **Quién paga qué** | Un solo cliente paga todo | **La inmobiliaria compra el equipo; la comunidad paga la suscripción** | A la inmobiliaria no le importa el payback. A la comunidad sí, y su suscripción es menor que su ahorro |
-| 4 | **Tren de tratamiento** | Prefiltro + membrana + separación electrostática | **Prefiltro + microfiltración con carbón + desinfección** | Entrevista: "tiene que ser más sencillo, debido al uso que tenemos pensado del agua". La electrostática ya había salido del Excel |
-| 5 | **Monitoreo** | IA predictiva, dashboard, nube | **Sensores en línea + registro automático + reporte de cumplimiento** | Entrevista: "no es necesario un sistema de monitoreo tan refinado con IA". Pero el DS 40 art. 44 **sí exige registro y seguimiento**, así que la capa de datos se mantiene con otra justificación |
-| 6 | **Propuesta de valor** | "Agua tratada con datos accionables" | **"Agua reutilizable más el expediente que prueba que cumple"** | Ningún competidor chileno se posiciona sobre el cumplimiento automatizado |
-| 7 | **Precio** | US$320 el equipo + US$8 al mes de mantención, que se llevaba todo el ahorro | **~US$560 por vivienda** en planta colectiva, más US$150 al mes por edificio (US$3 por vivienda) | El cliente pasa de quedar en cero a ganar US$60 al año. Ver [04](04-ahorro-precio-y-unidad-economica.md) |
-| 8 | **Argumento normativo** | "La normativa exige reutilizar" | **"La normativa no obliga todavía, pero regula con detalle a quien reutiliza, y la OGUC puede hacerlo obligatorio"** | La Ley 21.075 es permisiva. Su art. 14 delega la obligatoriedad en la OGUC |
+| 1 | **Dónde se instala** | Bajo el vanitorio, miniaturizado | **En la logia o el patio de la casa** | Hay espacio: no necesita chasis a medida. Baja ~US$20 del costo |
+| 2 | **Cliente** | Hogar directo (B2C) | **Constructora en obra nueva**, que compra el proyecto completo | Entrevista: el costo de instalación mata el B2C |
+| 3 | **Para qué se reutiliza** | Solo descarga de WC | **WC más riego de jardín** | La casa riega. Pasa de 5,10 a 8,85 m³/mes y el ahorro de US$96 a US$167 |
+| 4 | **Desinfección** | UV | **Cloración** | DS 40: con UV el art. 43 exige laboratorio mensual (US$789/año por casa); con cloro el art. 45 pide medición semanal portátil |
+| 5 | **Tren de tratamiento** | Prefiltro, membrana y electrostática | **Prefiltro, microfiltración con carbón y cloración** | Entrevista: "tiene que ser más sencillo". La electrostática además pedía 3.000 a 9.000 V |
+| 6 | **Monitoreo** | IA predictiva y dashboard | **Sensor de cloro en línea y registro automático** | La IA no hacía falta, pero el art. 45 **sí exige** registro ordenado semanal |
+| 7 | **Precio** | US$3.000 por vivienda | **US$480 por casa instalada**, más US$4 al mes | Payback de 31 a 2,9 años. Esa era la objeción |
+| 8 | **Argumento normativo** | "La normativa exige reutilizar" | **"No obliga todavía, pero regula con detalle a quien lo hace"** | La Ley 21.075 es permisiva; su art. 14 delega la obligatoriedad en la OGUC |
 
 ---
 
 ## 4. Lo que NO cambia
 
-Vale la pena decirlo en la lámina, porque demuestra que la iteración fue quirúrgica y no un borrón y cuenta nueva:
-
-- **El problema** y su dimensionamiento siguen siendo los mismos.
-- **El presupuesto de los meses 1 a 9** del prototipo beta se mantiene. Siguen construyendo un prototipo para probar el tren de tratamiento y la capa de sensores. Que el prototipo sea una unidad de banco está bien: es un prototipo, no el producto.
-- **La capa de datos** sigue siendo el diferenciador, solo que ahora se justifica con el artículo 44 del DS 40 en vez de con "IA predictiva".
+- **El problema** y su marco siguen siendo los mismos.
+- **El presupuesto de los meses 1 a 9** se mantiene: siguen construyendo un prototipo. Única salvedad: la línea del esterilizador UV hay que reemplazarla por el dosificador y el sensor de cloro, pendiente de cotizar.
+- **La capa de datos** sigue siendo el diferenciador, ahora justificada por el art. 45 en vez de por "IA predictiva".
 - **El foco en obra nueva** ya estaba en el deck 1.
 
 ---
 
 ## 5. Cómo contarlo en la presentación
 
-Una sola lámina, tres bloques:
+**Nos dijeron** → que baño por baño saldría muy caro. A US$3.000 por vivienda, el payback era de 31 años.
 
-**Planteamos** → Equipo por departamento, venta directa al hogar, monitoreo con IA.
+**Fuimos a probar** → entrevista con un académico de Ingeniería Industrial, lectura completa del DS 40 y búsqueda de la tarifa vigente de ESSBIO.
 
-**Probamos** → Entrevista con un académico de Ingeniería Industrial UdeC (26/10/2026) sobre tres desafíos. Más revisión del DS 40 y cálculo de ahorro con tarifa ESSBIO real.
+**Cambiamos dos cosas** → la casa riega, así que reutiliza casi el doble que un departamento. Y el reglamento nos dijo que con UV el cumplimiento costaba US$789 al año por casa, así que pasamos a cloración.
 
-**Cambiamos** → Planta colectiva, venta a inmobiliaria en obra nueva, suscripción de cumplimiento a la comunidad. Con los dos números que lo prueban: el costo de cumplimiento por vivienda baja de **US$789 a US$16 al año**, y el cliente pasa de **quedar en cero a ganar US$60 al año**.
-
-Esos dos números son los que hay que dejar en la lámina. Son concretos, vienen de la norma, de la tarifa real y del propio Excel del grupo, y explican la decisión mejor que cualquier párrafo.
+**El resultado** → de **31 años a 2,9 años** de recuperación. No bajamos el precio a la fuerza: encontramos dónde estaba el valor.
 
 ---
 
 ## 6. Para el visado ABET
 
-Con esto, el **componente 5** pasa de sin marcar a defendible:
-
 | Lo que exige la rúbrica | Dónde está |
 |---|---|
 | Propuesta | Prototipo alfa (práctica 1.2) y diseño beta (práctica 2.1) |
-| Testeo o verificación | Entrevista con supervisor técnico (práctica 2.3), análisis del DS 40, cálculo de ahorro |
+| Testeo o verificación | Retroalimentación de la Evaluación 1, entrevista con supervisor (práctica 2.3), análisis del DS 40, cálculo con tarifa real |
 | Modificación documentada y justificada | Este documento, sección 3 |
 
-Y el **componente 8** (calidad de la solución final) pide *"resultados esperados cuantificados y comparados contra la línea base"*. La línea base es la cuenta de agua actual; el resultado esperado es el ahorro de US$4.823 al año por edificio. Eso ya está calculado en [04](04-ahorro-precio-y-unidad-economica.md).
+El **componente 8** pide *"resultados esperados cuantificados y comparados contra la línea base"*. La línea base es la cuenta de agua actual; el resultado esperado es el ahorro de US$167 al año por casa. El cálculo está en [09-como-se-calculo-todo.md](09-como-se-calculo-todo.md).

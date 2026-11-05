@@ -26,9 +26,9 @@ La carpeta **[deck-2/](deck-2/)** tiene todo lo necesario para la Evaluación 2.
 
 ### Los tres hallazgos principales
 
-1. **La suscripción se comía todo el ahorro.** Con la tarifa vigente de ESSBIO Concepción (publicada el 23-09-2026), una vivienda ahorra US$8,04 al mes y se le cobraban US$8,00 de mantención: quedaba exactamente en cero, y encima había pagado US$320 por el equipo. Esto explica con números por qué el supervisor dijo que el B2C no funciona.
-2. **El costo de cumplimiento estaba subestimado.** El DS 40 (art. 43) exige análisis bacteriológico **mensual y por sistema** cuando se desinfecta con UV. El plan presupuestaba uno trimestral para toda la operación. Al mes 48 serían US$70.000 al mes contra ingresos de US$30.912.
-3. **La arquitectura colectiva arregla las dos cosas.** Un análisis por edificio en vez de por departamento baja el costo de cumplimiento por vivienda de US$789 a US$16 al año, y al cliente pasa de quedarle US$0 a quedarle US$60 al año.
+1. **El jardín casi duplica el ahorro.** Un departamento solo reutiliza en el WC (5,10 m³/mes, US$96 al año). Una casa además riega: 8,85 m³/mes, **US$167 al año**. Eso baja el payback del equipo de 31 años a **2,9 años**, que es la respuesta a la observación de que baño por baño saldría muy caro.
+2. **El reglamento dictó la tecnología.** Un equipo por casa trata 0,30 m³/día, bajo el umbral de 1,5 del art. 8, así que es sistema de menor tamaño. Con **UV** cae en el art. 43: laboratorio mensual por sistema, US$789 al año por casa. Con **cloración** cae en el art. 45: medición semanal con equipo portátil, unos US$15 al año.
+3. **El registro semanal es el producto.** El mismo art. 45 exige mantener registro ordenado de cada medición, y el art. 5 hace responsable al dueño de casa. Nadie quiere medir cloro todos los sábados y anotarlo: eso es lo que Graria automatiza.
 
 ---
 
@@ -71,9 +71,9 @@ La carpeta **[deck-2/](deck-2/)** tiene todo lo necesario para la Evaluación 2.
 
 El costeo del prototipo beta (meses 1 a 9, US$9.008) **no cambia** en la v2: siguen construyendo el mismo prototipo. Lo que cambia es el modelo comercial desde el mes 10.
 
-**Resultados de la v2:** necesidad máxima de caja de **US$5.193 en el mes 12** (no los US$9.008 del costo económico), flujo mensual positivo sostenido desde el mes 25, 41 edificios (2.050 viviendas) al mes 48, caja acumulada de US$455.198.
+**Resultados:** necesidad máxima de caja de **US$5.193 en el mes 12** (no los US$9.008 del costo económico), y 21 proyectos equivalentes a **1.680 casas** al mes 48.
 
-> Los costos de la planta colectiva son una **estimación escalada desde el prototipo**, no una cotización. Hay que cotizar estanque, UV industrial y bombas antes de presentarlos como dato duro.
+> El costo del equipo (US$175 por casa a volumen) es una **estimación escalada desde el prototipo**, no una cotización. Falta cotizar el dosificador y el sensor de cloro en línea.
 
 ---
 
@@ -98,7 +98,8 @@ manual/      manual del curso (incluido con autorización del profesor)
 |---|---|
 | Roles, fortalezas y logros de los 6 integrantes | **El grupo** |
 | Tarifa de ESSBIO vigente desde una boleta real | El grupo |
-| Cotizar estanque, UV industrial y bombas a escala de edificio | El grupo |
+| Cotizar el dosificador y el sensor de cloro en línea | El grupo |
+| Conseguir del INE el desglose de casas contra departamentos | El grupo |
 | Transcribir las tablas del artículo 36 del DS 40 (vienen como imagen) | El grupo |
 | Confirmar si la ficha de visado necesita firma manuscrita | El grupo |
 | Prácticas 3.1 y 3.2 | Por hacer en clase |
